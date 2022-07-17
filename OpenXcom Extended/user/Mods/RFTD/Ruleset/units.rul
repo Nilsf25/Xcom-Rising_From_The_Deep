@@ -1,0 +1,25 @@
+units:
+#XCOM: Rising from the deep units
+  - type: STR_XCOM_ROOKIE
+    race: STR_XCOM_TIER1_SET1
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 69
+      health: 34
+      bravery: 40
+      reactions: 59
+      firing: 60
+      throwing: 75
+      strength: 41
+      psiStrength: 10
+      psiSkill: 5
+      melee: 24
+    armor: STR_XCOM_DIVING_SUIT 
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: 48
+    energyRecovery: 30
+    intelligence: 2
+    aggression: 5

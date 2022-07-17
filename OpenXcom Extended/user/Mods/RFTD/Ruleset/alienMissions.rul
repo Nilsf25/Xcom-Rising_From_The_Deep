@@ -1,0 +1,59 @@
+alienMissions: 
+  - delete: STR_ALIEN_BASE
+  - delete: STR_ALIEN_PROBE_MISSION
+  - delete: STR_ALIEN_INTERDICTION
+  - delete: STR_ALIEN_RESOURCE_RAID
+  - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_ALIEN_SURFACE_ATTACK
+  - delete: STR_ALIEN_SHIP_ATTACK
+  - delete: STR_ALIEN_RETALIATION
+
+#modifying TWOTS
+  - type: STR_PROBE_MISSION_ATTACKED_BY_XCOM
+    points: 100
+    raceWeights:
+      0:
+          STR_XCOM_TIER1_SET1: 100
+      3:
+          STR_XCOM_TIER1_SET1: 100
+      6:
+          STR_XCOM_TIER1_SET1: 100
+      10:
+          STR_XCOM_TIER1_SET1: 100
+      12:
+          STR_XCOM_TIER1_SET1: 100
+      14:
+          STR_XCOM_TIER1_SET1: 100
+    waves:
+      - ufo: STR_SURVEY_SHIP
+        count: 1
+        trajectory: P0
+        timer: 24000
+      - ufo: STR_PATROLUFO
+        count: 2
+        trajectory: P0
+        timer: 4000
+      - ufo: STR_ESCORT
+        count: 1
+        trajectory: P2
+        timer: 5800
+        interruptPercentage: 10
+      - ufo: STR_CRUISER
+        count: 2
+        trajectory: P4
+        timer: 6000
+
+  - type: STR_NAGA_TEMPLE_XCOM
+    objective: 3
+    points: 0
+    spawnZone: 0 
+    raceWeights:
+      0: 
+          STR_XCOM_TIER1_SET1: 100
+    waves:
+      - ufo: STR_NAGA_TEMPLE_XCOM
+        count: 1
+        trajectory: P10
+        timer: 100
+        objective: true
+        

@@ -1,0 +1,102 @@
+extraSprites:
+
+#Rising from the deep stuff
+
+  - type: RISINGFROMTHEDEEP
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/GEOGRAPH/BG_MAIN_MENU.png
+
+  - type: SAVEMENUBACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/GEOGRAPH/BG_SaveMenuV2.png
+
+  - type: GlobeMarkers
+    width: 27
+    height: 3
+    subX: 3
+    subY: 3
+    files:
+      0: Resources/UI/new_globe_tftd.png
+
+  - type: USOBAYBACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/GEOGRAPH/BG_USOBAY_MENU.png
+
+  - type: USOBAYBACKGROUND2
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/GEOGRAPH/BG_USOBAY_MENUV2.png
+
+  - type: EXAMINATIONROOM
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/GEOGRAPH/BG_Examination_Room.png
+
+  - type: BUYSELLBACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/GEOGRAPH/BG_BUYSELL_MENU.png
+
+  - type: EQUIPBACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/GEOGRAPH/BG_EQUIP_MENUV3.png
+
+  - type: GEOBORD.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/GEOGRAPH/BG_GEOSCAPE_RFTD.png
+
+  - type: TAC00.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/GEOGRAPH/BG_TACTICAL_MENU.png
+
+  - type: CREWBACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/GEOGRAPH/BG_ALIEN_CREW.png
+
+  - type: SOLDIERSBACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/GEOGRAPH/BG_ALIEN_SOLDIERSV2.png
+
+  - type: BEGINNINGEVENT
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/GEOGRAPH/BG_BEGINNING.png
+
+  - type: AQUATOIDCRYOGENICSUSOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/GEOGRAPH/USOPEDIA_AQUATOID_CRYOGENICS.png

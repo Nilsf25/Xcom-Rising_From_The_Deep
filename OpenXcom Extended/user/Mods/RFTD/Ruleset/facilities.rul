@@ -1,0 +1,69 @@
+facilities: 
+
+  - type: STR_AIR_LOCK
+    provideBaseFunc: [AQUATOIDBASE]
+    lift: true
+    buildTime: 0
+    monthlyCost: 0
+    storage: 50
+    personnel: 50
+    labs: 10
+    workshops: 10
+    radarRange: 1695
+    radarChance: 10
+    aliens: 10
+    maxAllowedPerBase: 1    
+    missileAttraction: 1
+    mapName: GRUNGE04
+
+
+  - type: STR_LIVING_QUARTERS
+    requires: 
+     - STR_AQUATOID_CRYOGENICS
+    requiresBaseFunc: [AQUATOIDBASE]
+    missileAttraction: 1
+
+    
+  - type: STR_WORKSHOP
+    missileAttraction: 1
+
+  - type: STR_STANDARD_SONAR
+    missileAttraction: 2
+
+  - type: STR_WIDE_ARRAY_SONAR
+    requires: 
+     - STR_WIDE_ARRAY_SONAR
+    missileAttraction: 2
+
+  - type: STR_TORPEDO_DEFENSES
+    missileAttraction: 2
+
+  - type: STR_GENERAL_STORES
+    missileAttraction: 1
+
+    
+  - type: STR_SUB_PEN
+    crafts: 4
+    missileAttraction: 2
+
+    
+  - type: STR_ALIEN_CONTAINMENT
+    spriteShape: 1
+    spriteFacility: 25
+    buildCost: 400000
+    buildTime: 18
+    monthlyCost: 15000
+    aliens: 10
+    mapName: XBASES08
+    requires: 
+     - STR_ALIEN_CONTAINMENT
+    missileAttraction: 0
+
+
+  - type: STR_LABORATORY
+    buildCost: 650000
+    monthlyCost: 30000
+    labs: 25
+    missileAttraction: 1
+
+#----------------------Rising from the deep changes

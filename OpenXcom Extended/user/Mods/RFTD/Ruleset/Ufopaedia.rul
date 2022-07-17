@@ -1,0 +1,12 @@
+ufopaedia:
+  - delete: STR_COELACANTH_GAUSS
+  - delete: STR_ALIEN_PROBE_MISSION
+#--------------------------------Rising From The deep Articles
+#------Aquatoid Articles
+  - id: STR_LIVING_QUARTERS
+    type_id: 16
+    section: STR_BASE_FACILITIES
+    text: STR_AQUATOID_CRYOGENICS_USOPEDIA
+    image_id: AQUATOIDCRYOGENICSUSOPEDIA
+    requires:
+      - STR_AQUATOID_CRYOGENICS

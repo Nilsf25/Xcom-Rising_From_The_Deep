@@ -1,0 +1,588 @@
+interfaces: #slightly increased size of buttons
+  - type: battlescape
+    palette: PAL_BATTLESCAPE
+    elements:
+      - id: buttonUnitUp
+        pos: [50, 1]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonUnitDown
+        pos: [50, 17]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonMapUp
+        pos: [82, 1]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonMapDown
+        pos: [82, 17]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonShowMap
+        pos: [114, 1]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonKneel
+        pos: [114, 17]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonInventory
+        pos: [146, 1]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonCenter
+        pos: [146, 17]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonNextSoldier
+        pos: [178, 1]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonNextStop
+        pos: [178, 17]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonShowLayers
+        pos: [210, 1]
+        size: [30, 15]
+        TFTDMode: true
+      - id: numLayers
+        pos: [229, 5]
+        TFTDMode: true
+        color: 15
+      - id: buttonHelp
+        pos: [210, 17]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonEndTurn
+        pos: [242, 1]
+        size: [30, 15]
+        TFTDMode: true
+      - id: buttonAbort
+        pos: [242, 17]
+        size: [30, 15]
+        TFTDMode: true
+
+###Color changes for Xcom: Rising from the deep
+
+  - type: mainMenu
+    backgroundImage: RISINGFROMTHEDEEP
+    palette: PAL_BASESCAPE
+    music: GMWAITLO
+    elements:
+      - id: palette
+        color: 13
+      - id: window
+        color: 57
+      - id: text
+        color: 163
+      - id: button
+        color: 3
+      - id: battlescapeTheme
+        color: 157
+        color2: 157
+        border: 157
+        
+  - type: modsMenu
+    backgroundImage: RISINGFROMTHEDEEP
+    palette: PAL_BASESCAPE    
+    elements:
+      - id: palette
+        color: 13
+      - id: window
+        color: 57
+      - id: optionLists
+        color: 2
+        border: 3
+      - id: text
+        color: 2
+      - id: tooltip
+        color: 1
+      - id: button1
+        color: 3
+      - id: button2
+        color: 3
+
+  - type: modsWindow
+    palette: PAL_BASESCAPE    
+    elements:
+      - id: palette
+        color: 13
+      - id: window
+        color: 57
+      - id: heading
+        color: 3
+      - id: text
+        color: 2
+      - id: button1
+        color: 3
+      - id: button2
+        color: 3
+
+  - type: newBattleMenu
+    backgroundImage: RISINGFROMTHEDEEP
+    palette: PAL_BASESCAPE    
+    elements:
+      - id: palette
+        color: 13
+      - id: window
+        color: 57
+      - id: heading
+        color: 1
+      - id: text
+        color: 2
+      - id: frames
+        color: 3
+      - id: button1
+        color: 3
+      - id: button2
+        color: 3
+      - id: list
+        color: 2
+        color2: 2
+        border: 3
+
+  - type: newGameMenu
+    backgroundImage: RISINGFROMTHEDEEP
+    palette: PAL_BASESCAPE    
+    elements:
+      - id: palette
+        color: 13
+      - id: window
+        color: 57
+      - id: text
+        color: 2
+      - id: ironman
+        color: 162
+      - id: button
+        color: 3
+
+  - type: optionsMenu
+    backgroundImage: RISINGFROMTHEDEEP
+    palette: PAL_BASESCAPE    
+    elements:
+      - id: palette
+        color: 13
+      - id: window
+        color: 57
+      - id: tooltip
+        color: 2
+      - id: button
+        color: 3
+      - id: confirmDefaults
+        color: 2
+      - id: confirmVideo
+        color: 2
+  - type: videoMenu
+    elements:
+      - id: text
+        color: 2
+      - id: resolution
+        color: 3
+      - id: button
+        color: 3
+  - type: audioMenu
+    elements:
+      - id: text
+        color: 2
+      - id: button
+        color: 3
+  - type: controlsMenu
+    elements:
+      - id: optionLists
+        color: 2
+        color2: 2
+        border: 3
+  - type: geoscapeMenu
+    elements:
+      - id: text
+        color: 2
+      - id: button
+        color: 3
+  - type: battlescapeMenu
+    elements:
+      - id: text
+        color: 2
+      - id: button
+        color: 3
+  - type: advancedMenu
+    elements:
+      - id: optionLists
+        color: 2
+        color2: 2
+        border: 3
+      - id: disabledUserOption
+        color: 3
+  - type: foldersMenu
+    elements:
+      - id: text1
+        color: 2
+      - id: text2
+        color: 3
+
+  - type: saveMenus
+    backgroundImage: SAVEMENUBACKGROUND
+    elements:
+      - id: palette
+        color: 1
+      - id: window
+        color: 247
+      - id: text
+        color: 2
+        color2: 146
+      - id: list
+        color: 143
+        color2: 146
+        border: 146
+      - id: button
+        color: 156
+      - id: confirmLoad
+        color: 156
+      - id: confirmDelete
+        color: 156
+
+  - type: pauseMenu
+    backgroundImage: RISINGFROMTHEDEEP
+    palette: PAL_BASESCAPE    
+    elements:
+      - id: palette
+        color: 13
+      - id: window
+        color: 57
+      - id: text
+        color: 2
+      - id: button
+        color: 3
+
+  - type: geoscape
+    backgroundImage: GEOBORD.SCR
+    elements:
+      - id: palette
+        color: 4     # brown
+        color2: 4
+      - id: textLoad
+        color: 239   # minty green
+      - id: button
+        color: 245   # 2 light blue
+        color2: 244  # 1 slightly lighter blue
+        TFTDMode: true
+      - id: text
+        color: 244   # even lighter blue
+      - id: slackingIndicator
+        color: 244     # white
+        color2: 245  # light blue
+        custom: 245  # above Intercept button
+      - id: genericWindow
+        color: 245
+      - id: genericText
+        color: 245
+        color2: 245  # yellow
+        border: 146   # minty green
+      - id: genericButton1
+        color: 244    # minty green
+      - id: genericButton2
+        color: 244    # bright green
+      - id: errorPalette
+        color: 6     # brown
+      - id: errorMessage
+        color: 245   # even lighter blue
+
+  - type: intercept
+    backgroundImage: BACK15.SCR
+    elements:
+      - id: palette
+        color: 1
+        color2: 6    # oxide
+      - id: window
+        color: 244
+      - id: text1
+        color: 156
+        color2: 2
+        border: 239
+      - id: text2
+        color: 156
+        color2: 2
+        border: 133  # minty green
+      - id: list
+        color: 244
+        color2: 244
+        border: 244
+      - id: button
+        color: 244
+
+  - type: geoCraft
+    backgroundImage: BACK15.SCR
+    elements:
+      - id: palette
+        color: 1
+        color2: 6    # oxide
+      - id: window
+        color: 244
+      - id: text1
+        color: 156
+        color2: 2
+        border: 239
+      - id: text2
+        color: 156
+        color2: 2
+        border: 133  # minty green
+      - id: text3
+        color: 156
+        color2: 2
+        border: 239  # bright green
+      - id: list
+        color: 244
+        color2: 244
+        border: 244
+      - id: button
+        color: 244
+
+  - type: craftPatrol
+    backgroundImage: BACK15.SCR
+    elements:
+      - id: palette
+        color: 1
+        color2: 6    # oxide
+      - id: window
+        color: 244
+      - id: text
+        color: 156
+        color2: 2
+        border: 244
+      - id: button
+        color: 244
+
+
+  - type: basescape
+    palette: PAL_BASESCAPE
+    elements:
+      - id: button
+        color: 3
+      - id: text1
+        color: 162
+      - id: text2
+        color: 163
+      - id: text3
+        color: 164
+      - id: textTooltip
+        color: 115
+      - id: baseView
+        color: 213   # gold   (time remaining)
+        color2: 52   # orange (selector color)
+      - id: errorPalette
+        color: 6     # oxide
+      - id: errorMessage
+        color: 1
+      - id: miniBase
+        color: 8
+        color2: 80
+        border: 159
+
+  - type: craftSelect
+    backgroundImage: USOBAYBACKGROUND
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 1
+      - id: window
+        color: 56
+      - id: text
+        color: 164
+        color2: 3
+      - id: list
+        color: 162
+        border: 3
+      - id: button
+        color: 3
+      - id: errorPalette
+        color: 6     # oxide
+      - id: errorMessage
+        color: 112
+
+  - type: craftInfo
+    backgroundImage: USOBAYBACKGROUND2
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 10
+      - id: window
+        color: 56
+      - id: text1
+        color: 164
+        color2: 162
+      - id: text2
+        color: 163
+      - id: text3
+        color: 163
+        color2: 163
+      - id: button
+        color: 3
+
+  - type: craftSoldiers
+    backgroundImage: CREWBACKGROUND
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 1
+      - id: window
+        color: 56
+      - id: text
+        color: 164
+        color2: 162
+      - id: otherCraft
+        color: 164
+      - id: list
+        color: 163
+        color2: 163
+        border: 1
+      - id: button
+        color: 3
+
+  - type: craftEquipment
+    backgroundImage: EQUIPBACKGROUND
+    palette: PAL_BASESCAPE            
+    elements:
+      - id: palette
+        color: 13 #4 isn't bad, 8 even better, 9 good too
+      - id: window
+        color: 57
+      - id: text
+        color: 164
+        color2: 165 #OG 244
+      - id: button
+        color: 3
+      - id: list
+        color: 165
+        color2: 162 #OG 239
+        border: 1
+      - id: ammoColor
+        color: 165
+      - id: errorPalette
+        color: 2
+      - id: errorMessage
+        color: 112
+
+  - type: craftArmor
+    backgroundImage: USOBAYBACKGROUND2
+    palette: PAL_BASESCAPE    
+    elements:
+      - id: palette
+        color: 1     # aqua
+      - id: window
+        color: 57    # blue
+      - id: text
+        color: 164     # blue
+      - id: button
+        color: 3    # blue
+      - id: list
+        color: 164   # white
+        color2: 165  # blue
+      - id: otherCraft
+        color: 165   # blue
+
+  - type: researchMenu
+    backgroundImage: EXAMINATIONROOM
+    palette: PAL_BASESCAPE        
+    elements:
+      - id: palette
+        color: 1     # green
+      - id: window
+        color: 56     # blue
+      - id: text
+        color: 163   # blue
+        color2: 162  # white
+      - id: list
+        color: 162   # purple
+        border: 165 # blue
+      - id: button
+        color: 3   # purple
+
+  - type: selectNewResearch
+    backgroundImage: EXAMINATIONROOM
+    parent: researchMenu
+    elements:
+      - id: window
+        color: 55   # blue
+      - id: text
+        color: 163   # blue
+      - id: list
+        color: 162   # white
+        color2: 162
+        border: 162  # blue
+      - id: button
+        color: 3   # purple
+
+  - type: allocateResearch
+    backgroundImage: EXAMINATIONROOM
+    parent: researchMenu
+    elements:
+      - id: window
+        color: 54   # gold
+      - id: text
+        color: 163   # gold
+        color2: 162  # white
+      - id: button1
+        color: 162   # gold
+      - id: button2
+        color: 3   # blue
+
+  - type: soldierList
+    backgroundImage: SOLDIERSBACKGROUND
+    palette: PAL_BASESCAPE            
+    elements:
+      - id: palette
+        color: 1
+      - id: window
+        color: 54
+      - id: text1
+        color: 164
+      - id: text2
+        color: 162
+      - id: list
+        color: 164
+        color2: 162
+        border: 1
+      - id: button
+        color: 3
+
+  - type: buyMenu
+    backgroundImage: BUYSELLBACKGROUND
+    palette: PAL_BASESCAPE        
+    elements:
+      - id: palette
+        color: 1     # blue
+      - id: window
+        color: 56  # blue
+      - id: text
+        color: 164  # blue
+        color2: 112  # white
+      - id: list
+        color: 165   # blue
+        color2: 162   # purple
+        border: 115
+      - id: ammoColor
+        color: 165  # white
+      - id: button
+        color: 3   # blue
+      - id: errorPalette
+        color: 6     # brown
+      - id: errorMessage
+        color: 112   # pink
+
+  - type: ufopaedia
+    backgroundImage: BACK01.SCR
+    elements:
+      - id: palette
+        color: 4
+      - id: window
+        color: 1
+      - id: text
+        color: 1
+      - id: list
+        color: 1
+        color2: 239
+        border: 1
+      - id: button1
+        color: 1
+      - id: button2
+        color: 1

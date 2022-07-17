@@ -1,0 +1,117 @@
+items: 
+#moving vanilla
+  - delete: STR_CRAFT_GAS_CANNON
+  - delete: STR_CRAFT_GAS_CANNON_ROUNDS_X50
+  - delete: STR_HYDRO_JET_CANNON
+  - delete: STR_HJC_AP_AMMO
+  - delete: STR_HJC_HE_AMMO
+  - delete: STR_HJC_P_AMMO
+  - delete: STR_TORPEDO_LAUNCHER
+  - delete: STR_SMALL_TORPEDO
+  - delete: STR_LARGE_TORPEDO
+  - delete: STR_PHOSPHOROUS_TORPEDO
+  - delete: STR_PARTICLE_DISTURBANCE_GRENADE
+  - delete: STR_MC_DISRUPTOR
+  - delete: STR_COELACANTH_GAS_CANNON
+  - delete: STR_HWP_SOLID_HARPOON_BOLTS
+  - delete: STR_COELACANTH_AQUA_JET
+  - delete: STR_HWP_AQUA_JET_MISSILES
+  - delete: STR_COELACANTH_GAUSS
+  - delete: STR_THERMAL_TAZER 
+  - delete: STR_CHEMICAL_FLARE
+  - delete: STR_CORPSE_ARMOR
+
+  #Rising from the deep related
+###XCOM STUFF
+
+  - type: STR_XCOM_CORPSE
+    name: STR_HUMAN_CORPSE
+    categories: [STR_ALIEN_CORPSE]
+    weight: 30
+    size: 0.5
+    bigSprite: 28
+    floorSprite: 39
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 15
+    recover: true
+    recoveryPoints: 5
+    costSell: 200
+    
+  - type: STR_XCOM_ROOKIE
+    categories: [STR_LIVE_ALIEN]
+    size: 0.0
+    recover: true
+    recoveryPoints: 10
+    liveAlien: true
+    costSell: 400
+
+  - type: DISPLACER_CORPSE_1
+    battleType: 11
+    floorSprite: 64
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: DISPLACER_CORPSE_2
+    battleType: 11
+    floorSprite: 65
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: DISPLACER_CORPSE_3
+    battleType: 11
+    floorSprite: 66
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: DISPLACER_CORPSE_4
+    battleType: 11
+    floorSprite: 67
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: COELACANTH_CORPSE_1
+    battleType: 11  
+    floorSprite: 68
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: COELACANTH_CORPSE_2
+    battleType: 11
+    floorSprite: 69
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: COELACANTH_CORPSE_3
+    battleType: 11
+    floorSprite: 70
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: COELACANTH_CORPSE_4
+    battleType: 11
+    floorSprite: 71
+    invWidth: 0
+    invHeight: 0
+    recover: false
+
+###CIVILIAN STUFF
+  - type: CIVM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 30
+    floorSprite: 50
+    invWidth: 0
+    invHeight: 0
+    armor: 12
+    recover: false
+  - type: CIVF_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 50
+    floorSprite: 51
+    invWidth: 0
+    invHeight: 0
+    armor: 12
+    recover: false

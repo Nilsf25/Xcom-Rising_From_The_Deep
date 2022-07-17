@@ -1,0 +1,9 @@
+musics: #done
+  - type: TAC_UNDERSEA
+    normalization: 1.0
+  - type: RETURNING_TO_BASE
+    normalization: 1.0
+  - type: VOICES
+    normalization: 1.0
+  - type: GMGEO7
+    normalization: 1.0

@@ -1,0 +1,40 @@
+armors: 
+#  - delete: STR_ION_ARMOR_UC
+  - delete: STR_MAGNETIC_ION_ARMOR_UC
+  - delete: STR_MCB_ARMOR_UC
+  - delete: STR_NONE_UC
+  - delete: STR_DIVING_SUIT 
+  - delete: STR_LUNG
+  - delete: STR_COVERALL
+
+#Xcom-Rising from the deep stuff
+
+  - type: STR_XCOM_DIVING_SUIT 
+    drawBubbles: true
+    visibilityAtDark: 9
+    visibilityAtDay: 20
+    spriteSheet: TDXCOM_0.PCK
+    spriteInv: MAN_0M4
+    corpseBattle:
+      - STR_XCOM_CORPSE
+    frontArmor: 15
+    sideArmor: 8
+    rearArmor: 8
+    underArmor: 5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.6
+      - 1.5
+      - 1.0
+      - 1.0
+    recovery:
+      health:
+        stunNormalized: -0.165
+    loftempsSet: [3]
+    drawingRoutine: 13

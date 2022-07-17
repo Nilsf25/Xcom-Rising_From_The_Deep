@@ -1,0 +1,23 @@
+# Script allowing Xcom: Rising from the deep to always skip first turn in battlescape and let the unit regain TU for the second turn.
+extended:
+  scripts:
+    newTurnUnit:
+      - offset: 21
+        code: |
+          var int isPlayerUnit;
+          var int maxUnitTu;
+          var int isEnemyTurn;
+
+          unit.getFaction isPlayerUnit;
+          unit.getTimeUnitsMax maxUnitTu;
+          battle_game.getTurnSide isEnemyTurn;
+
+          if eq turn 1;
+            if eq isPlayerUnit 0;
+            unit.setTimeUnits 0 ;
+              if eq isEnemyTurn 1;
+              unit.setTimeUnits maxUnitTu;
+              end;
+            end;
+          end;
+          return;

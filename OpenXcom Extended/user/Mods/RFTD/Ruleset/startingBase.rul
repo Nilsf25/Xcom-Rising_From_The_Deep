@@ -1,0 +1,14 @@
+startingBase:
+  lon: 5.825047263097491
+  lat: -0.50994689896928924
+  name: "Atlantis (Aquatoid)"
+  facilities:
+    - type: STR_AIR_LOCK
+      x: 0
+      y: 2
+    - type: STR_SUB_PEN
+      x: 0
+      y: 0
+  randomSoldiers: 0
+  scientists: 15
+  engineers: 5
