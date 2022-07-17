@@ -1,6 +1,27 @@
 extraSprites:
 
-#Rising from the deep stuff
+#Rising from the deep basebits
+  - type: BASEBITS.PCK
+    files:
+      0: Resources/Basebits/BASEBIT_EMPTYTILE.png
+      1: Resources/Basebits/BASEBIT_EMPTYSQUARE.png
+      2: Resources/Basebits/BASEBIT_EMPTYOCTAGON.png
+      3: Resources/Basebits/BASEBIT_EMPTYCROSS.png
+      7: Resources/Basebits/BASEBIT_TRANSITIONSIDES.png
+      8: Resources/Basebits/BASEBIT_TRANSITIONUPDOWN.png
+      9: Resources/Basebits/BASEBIT_USOPEN1.png
+      10: Resources/Basebits/BASEBIT_USOPEN2.png
+      11: Resources/Basebits/BASEBIT_USOPEN3.png
+      12: Resources/Basebits/BASEBIT_USOPEN4.png
+      17: Resources/Basebits/BASEBIT_AQUATOID_ACCESSPADS.png
+      18: Resources/Basebits/BASEBIT_AQUATOID_CRYOGENICS.png
+      19: Resources/Basebits/BASEBIT_AQUATOID_EXAMINATION.png
+      20: Resources/Basebits/BASEBIT_AQUATOID_CLONING.png
+      21: Resources/Basebits/BASEBIT_AQUATOID_LEARNINGARRAYS.png
+      24: Resources/Basebits/BASEBIT_AQUATOID_STORAGE.png
+      38: Resources/UI/Craft_Aquatoid_Icon.png    
+      39: Resources/UI/Craft_Weapon_Icon.png
+
 
   - type: RISINGFROMTHEDEEP
     singleImage: true

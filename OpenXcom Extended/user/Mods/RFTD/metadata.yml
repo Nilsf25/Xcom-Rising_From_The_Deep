@@ -1,0 +1,15 @@
+#
+# metadata.yaml for RFTD
+
+name: "Xcom: Rising from the deep"
+version: 1.0
+description: "Mod for TFTD. OXCE not included."
+author: Thusky
+id: RFTD
+requiredExtendedVersion: "7.6"
+reservedSpace: 3
+
+isMaster: false
+master: xcom2
+loadResources:
+  - TFTD
