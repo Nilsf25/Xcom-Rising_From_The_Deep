@@ -46,24 +46,8 @@ facilities:
     crafts: 4
     missileAttraction: 2
 
-    
-  - type: STR_ALIEN_CONTAINMENT
-    spriteShape: 1
-    spriteFacility: 25
-    buildCost: 400000
-    buildTime: 18
-    monthlyCost: 15000
-    aliens: 10
-    mapName: XBASES08
-    requires: 
-     - STR_ALIEN_CONTAINMENT
-    missileAttraction: 0
-
-
   - type: STR_LABORATORY
     buildCost: 650000
     monthlyCost: 30000
     labs: 25
     missileAttraction: 1
-
-#----------------------Rising from the deep changes

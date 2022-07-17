@@ -4,8 +4,6 @@ armors:
   - delete: STR_MCB_ARMOR_UC
   - delete: STR_NONE_UC
   - delete: STR_DIVING_SUIT 
-  - delete: STR_LUNG
-  - delete: STR_COVERALL
 
 #Xcom-Rising from the deep stuff
 
