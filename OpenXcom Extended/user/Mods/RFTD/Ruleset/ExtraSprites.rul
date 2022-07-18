@@ -45,6 +45,14 @@ extraSprites:
       20: Resources/Basebits/BASEBIT_AQUATOID_CLONING.png
       21: Resources/Basebits/BASEBIT_AQUATOID_LEARNINGARRAYS.png
       24: Resources/Basebits/BASEBIT_AQUATOID_STORAGE.png
+
+
+      230: Resources/Basebits/BASEBIT_RUBBLE.png
+      231: Resources/Basebits/BASEBIT_RUBBLE.png
+      232: Resources/Basebits/BASEBIT_RUBBLE.png
+      233: Resources/Basebits/BASEBIT_RUBBLE.png
+
+
       38: Resources/UI/Craft_Aquatoid_Icon.png    
       39: Resources/UI/Craft_Weapon_Icon.png
 
@@ -484,6 +492,368 @@ extraSprites:
       1501: Resources/Weapons/handob_shard_cannon.png
       1509: Resources/Weapons/handob_acid_pistol.png
 
+#-------ARMORS_UNITS SPRITESHEETS
+  - type: IONSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armors/ion_armor_sheet.png
+  - type: MCBASHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1640
+    files:
+      0: Resources/Armors/mc_battlearmor_sheet.png
+
+  - type: LUNGSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armors/lung_sheet.png
+  - type: COVERSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 1024
+    height: 360
+    files:
+      0: Resources/Armors/coverall/coverall_sheet.png
+
+  - type: CARAPACESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 1024
+    height: 360
+    files:
+      0: Resources/Armors/carapace_sheet.png
+      
+  - type: HAZMAT.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Armors/hazmatarmor_spritesheet.png
+  - type: NEWTSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armors/newtsuit_sheet.png
+
+  - type: EXOSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armors/exosuit_sheet.png
+
+  - type: BIOSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1600
+    files:
+      0: Resources/Armors/biosuit_sheet.png
+  - type: ABIOSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armors/A_bio_suit_sheet.png
+  - type: HYBRIDSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armors/hybrid_suit_sheet.png
+  - type: MCSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armors/mc_armor_sheet.png
+  - type: WALKERSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 800
+    files:
+      0: Resources/Armors/SPLIT_WALKER.png
+  - type: WALKERSHEET2.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 800
+    files:
+      0: Resources/Armors/SPLIT_WALKER2.png
+  - type: OUTCASTSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1400
+    files:
+      0: Resources/Units/outcast_sheet.png
+  - type: SLIME.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: Resources/units/slime_sheet.png
+
+  - type: SERVITOR.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: Resources/units/servitor_sheet.png
+
+  - type: POLYPH.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/units/POLYPH_sheet.png
+
+  - type: PROTOPLASM.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/units/PLASMICIDE.png
+  - type: pCALCIN.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/units/pCALCIN.png
+
+  - type: DISCIPLE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 680
+    files:
+      0: Resources/units/disciple_sheet.png
+  - type: FANATIC.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 520
+    files:
+      0: Resources/units/fanatic_sheet.png
+  - type: ABYSSIAN.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 600
+    files:
+      0: Resources/units/jelly.png 
+
+  - type: REEF.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 200
+    files:
+      0: Resources/units/REEF_sheet.png
+
+  - type: OCT.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 200
+    files:
+      0: Resources/units/oct_sheet.png
+      
+  - type: TURTLE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1480
+    files:
+      0: Resources/units/turtle_sheet.png
+
+  - type: NAGA.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 680
+    files:
+      0: Resources/units/NAGA_sheet.png
+      
+  - type: FREAK.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 680
+    files:
+      0: Resources/units/freak_sheet.png
+  - type: HELLCRAB.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 800
+    files:
+      0: Resources/units/hellcrab_sheet.png
+
+  - type: DRONE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 120
+    files:
+      0: Resources/units/drone_sheet.png
+      
+  - type: S_DRONE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 120
+    files:
+      0: Resources/units/drone_s_sheet.png
+  - type: A_DRONE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 120
+    files:
+      0: Resources/units/drone_a_sheet.png
+      
+  - type: DRONE2.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/units/drone2_sheet.png
+  - type: MINDWORMS.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/units/mindworms_sheet.png
+  - type: MINDWORMSL.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/units/mindworms_l_sheet.png
+  - type: LOCUST.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 40
+    files:
+      0: Resources/units/locust_sheet.png
+  - type: NEEDLER.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/units/needler_sheet.png
+  - type: GHOST.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 80
+    files:
+      0: Resources/units/ghost_sheet.png
+
+  - type: ZOMBIE_WORMS.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 760
+    files:
+      0: Resources/Units/ZOMBIE_worms_sheet.png
+  - type: MUTANT.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 760
+    files:
+      0: Resources/units/mutant_sheet.png
+  - type: MUTANT0.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 680
+    files:
+      0: Resources/units/mutant0_sheet.png
+  - type: CARCHARODON.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1400
+    files:
+      0: Resources/units/CarcharodonUnit.gif
+  - type: TASOTHGUARD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/units/tasothguard_sheet.png
+      
+  - type: HEAVYAQUATOID.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/units/heavyaquatoid_sheet.png
+      
+  - type: HEAVYGILLMAN.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/units/heavygillman_sheet.png
+
+  - type: POWERZOMBIESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armors/powerzombie_sheet.png
+  - type: SOLDIERSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Units/soldier_sheet.png
+  - type: OFFICERSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Units/officer_sheet.png
+
+
+
+
 #------MENU BACKGROUNDS
   - type: RISINGFROMTHEDEEP
     singleImage: true
@@ -562,7 +932,10 @@ extraSprites:
     files: 
       0: Resources/Backgrounds_Menus/BG_ALIEN_SOLDIERSV2.png
 
-
+  - type: AlienInventory
+    singleImage: true
+    files:
+      0: Resources/Backgrounds_Menus/BG_XCOM_INVENTORY.png
 
 #------EVENTS BACKGROUNDS
   - type: BEGINNINGEVENT
