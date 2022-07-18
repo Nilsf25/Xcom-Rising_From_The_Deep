@@ -8,8 +8,6 @@ extraSprites:
     files:
       0: Resources/UI/new_globe_tftd.png
 
-
-
 #------STATUS UI
   - typeSingle: BigStunIndicator
     fileSingle: Resources/StatusUI/Zzz.png
@@ -28,7 +26,7 @@ extraSprites:
   - typeSingle: FloorShockIndicator
     fileSingle: Resources/StatusUI/Frost.png
 
-#------BASEBITS
+#------BASEBITS + BASE ICONS
   - type: BASEBITS.PCK
     files:
       0: Resources/Basebits/BASEBIT_EMPTYTILE.png
@@ -50,8 +48,227 @@ extraSprites:
       38: Resources/UI/Craft_Aquatoid_Icon.png    
       39: Resources/UI/Craft_Weapon_Icon.png
 
-#------MENU BACKGROUNDS
+#------WEAPONS_UNITS_ARMORS BIGOBS.PCK
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      128: Resources/armors/inv_corpse.png
+      129: Resources/Weapons/bigob_knife.gif
+      130: Resources/Weapons/bigob_harp.gif
+      131: Resources/Weapons/bigob_harp_Clip.gif
+      132: Resources/Weapons/bigob_harp_Clip_e.gif
+      133: Resources/Weapons/bigob_harp_Clip_st.gif
+      134: Resources/Weapons/bigob_P11.gif
+      135: Resources/Weapons/bigob_P11_Clip.gif
+      136: Resources/Weapons/bigob_ads.gif
+      137: Resources/Weapons/bigob_ads_Clip.gif
+      138: Resources/Weapons/bigob_spp.gif
+      139: Resources/Weapons/bigob_spp_Clip.gif
+      140: Resources/Weapons/bigob_cl.gif
+      141: Resources/Weapons/bigob_cl_Clip.gif
+      142: Resources/Weapons/bigob_alien_Clip.gif
+      143: Resources/Weapons/bigob_spear.png
+      144: Resources/Weapons/ax.gif
+      145: Resources/Weapons/dynamite.gif
+      146: Resources/Weapons/bigob_drone_stun.png
+      147: Resources/Weapons/bigob_plasma.png
+      148: Resources/Weapons/bigob_harp_empty.png
+      150: Resources/Weapons/bigob_dartp_st.png
+      151: Resources/Weapons/bigob_dartp.png
+      152: Resources/Weapons/bigob_dartr.png
+      153: Resources/Weapons/bigob_aqjet.png
+      154: Resources/Weapons/bigob_hj_smg.png
+      155: Resources/Weapons/bigob_hj_smg_clip.png
+      156: Resources/Weapons/bigob_bioflare.png
+      157: Resources/Weapons/bigob_advmedikit.png
+      158: Resources/Weapons/bigob_laser.png
+      159: Resources/Weapons/bigob_elerium.png
+      160: Resources/armors/bigob_Newtsuit.png
+      161: Resources/armors/bigob_exosuit.png
+      162: Resources/armors/bigob_biosuit.png
+      163: Resources/armors/bigob_hybrid_suit.png
+      164: Resources/armors/bigob_mc_armor.png
+      165: Resources/armors/bigob_hazmatarmor.gif
+      166: Resources/armors/bigob_mcba.png
+      175: Resources/units/bigob_slime_CORPSE.gif
+      176: Resources/units/bigob_polyph_corpse.png
+      177: Resources/units/bigob_freak.png
+      178: Resources/units/bigob_drown_corpse.png
+      179: Resources/units/bigob_paladin_corpse.gif
+      180: Resources/units/bigob_fanatic_corpse.gif
+      181: Resources/units/bigob_disciple_corpse.gif
+      182: Resources/units/bigob_soldier.png
+      183: Resources/units/bigob_officer_corpse.png
+      184: Resources/units/bigob_naga_corpse.png
+      185: Resources/units/bigob_drone_corpse.png
+      186: Resources/units/bigob_outcast_corpse.png
+      187: Resources/units/bigob_drone2_corpse.bmp
+      188: Resources/units/bigob_mutant1_corpse.png
+      189: Resources/units/bigob_mutant2_corpse.png
+      190: Resources/units/bigob_ghost.png   
+      191: Resources/Weapons/bigob_advtorp.png
+      192: Resources/Weapons/heavy_torp.png
+      193: Resources/Weapons/correc_torp.png
+      194: Resources/Weapons/bigob_hwp_gas.png
+      195: Resources/Weapons/bigob_hwp_sc.png
+      196: Resources/Weapons/bigob_hwp_ADVtorp.png
+      197: Resources/Weapons/bigob_hwp_gauss.png
+      198: Resources/Weapons/bigob_drone_gun.png
+      199: Resources/Weapons/bigob_hwp_ion.png
+      201: Resources/Weapons/bigob_ion_sidearm.png
+      202: Resources/Weapons/bigob_ion_cannon.png
+      203: Resources/Weapons/bigob_h_ion_cannon.png
+      204: Resources/Weapons/bigob_ion_sidearm_clip.png
+      205: Resources/Weapons/bigob_ion_clip.png
+      206: Resources/Weapons/bigob_h_ion_clip.png
+      208: Resources/Weapons/bigob_gauss_cannon.png
+      209: Resources/Weapons/bigob_gauss_autogun.png
+      210: Resources/Weapons/bigob_gauss_autoclip.png     
+      211: Resources/Weapons/bigob_gauss_sniper.png
+      212: Resources/Weapons/bigob_gsniper_clip.png
+      213: Resources/Weapons/bigob_microtorp.png
+      214: Resources/Weapons/bigob_microtorp_clip.png
+      215: Resources/units/bigob_mutant0.png
+      216: Resources/Weapons/bigob_microtorp_clip_he.png
+      217: Resources/Weapons/bigob_microtorp_clip_p.png
+      218: Resources/Weapons/bigob_microtorp_clip_zr.png
+      220: Resources/Weapons/bigob_key.png
+      226: Resources/Weapons/bigob_hj_smg_pack.png
+      227: Resources/Weapons/bigob_hj_smg_clip_sc.png
+      230: Resources/Weapons/bigob_mc_controller.png
+      231: Resources/Weapons/bigob_zrbite_gas_clip.png
+      232: Resources/Weapons/bigob_zrbite_aqjet.png
+      233: Resources/Weapons/bigob_zrbite_torp.png
+      236: Resources/Weapons/bigob_tri.png
+      238: Resources/Weapons/bigob_autosonic.png
+      239: Resources/Weapons/bigob_autosonic_clip.png
+      245: Resources/Weapons/bigob_hg_cannon.png
+      246: Resources/Weapons/bigob_hg_he_clip.png
+      247: Resources/Weapons/bigob_hg_fl_clip.png
+      248: Resources/Weapons/bigob_hg_zr_clip.png
+      249: Resources/Weapons/bigob_snipersonic.png
+      250: Resources/Weapons/bigob_snipersonic_clip.png
+      251: Resources/units/bigob_Plasmicide.png
+      254: Resources/units/bigob_needler.png
+      255: Resources/units/bigob_heavyaquatoid.png
+      256: Resources/units/bigob_heavygillman.png
+      257: Resources/units/bigob_tasothguard.png
+      260: Resources/weapons/bigob_shard_pistol.png
+      261: Resources/weapons/bigob_shard_rifle.png
+      262: Resources/weapons/bigob_shard_cannon.png
+      263: Resources/weapons/bigob_shard_flask.png
+      281: Resources/units/CarcharodonInventoryCorpse.gif
+      282: Resources/units/bigob_zombie_worm.gif
+      283: Resources/weapons/SharkBite.gif
+      284: Resources/Weapons/bigob_hook.png
+      285: Resources/Weapons/bigob_acidgun.gif
+      286: Resources/Weapons/bigob_acidgun_clip.gif
+      287: Resources/Weapons/old/bigob_ak.gif
+      288: Resources/Weapons/old/bigob_ak_clip.gif
+      289: Resources/Weapons/old/bigob_shotgun.gif
+      290: Resources/Weapons/old/bigob_shotgun_shells.gif
+      291: Resources/Weapons/old/bigob_revolver.gif
+      292: Resources/Weapons/old/bigob_revolver_drum.gif
+      293: Resources/Weapons/old/bigob_lmg.gif
+      294: Resources/Weapons/old/bigob_lmg_clip.gif
+      295: Resources/Weapons/old/bigob_xrifle.gif
+      296: Resources/Weapons/old/bigob_xrifle_clip.gif
+      297: Resources/Weapons/old/bigob_flamethrower.gif
+      298: Resources/Weapons/old/bigob_flamethrower_clip.gif
+      299: Resources/Weapons/old/bigob_laser_carbine.gif
+      300: Resources/Weapons/old/bigob_laser_rifle.gif
+      301: Resources/Weapons/old/bigob_stun_grenade.gif
+      302: Resources/Weapons/old/bigob_laser_smg.png
+      303: Resources/Weapons/bigob_acid_pistol.png
+      304: Resources/Weapons/bigob_acid_pistol_clip.png
+      310: Resources/Weapons/bigob_heavy_sc.png
+      311: Resources/Weapons/bigob_heavy_gl.png
+      312: Resources/Weapons/bigob_heavy_grenade.png
+      313: Resources/Weapons/bigob_solitone_grenade.png
+      314: Resources/Weapons/bigob_sonic_ram.png
+      315: Resources/Weapons/bigob_h_inc.png
+      316: Resources/armors/carapace_corpse.png
+      317: Resources/armors/coverall/coverall_corpse.png
+      320: Resources/Weapons/bigob_solitone_bomb.png
+      321: Resources/Weapons/bigob_solitone_charge.png
+      324: Resources/Weapons/bigob_vibroknife.gif
+      325: Resources/Weapons/bigob_chains.png
+      326: Resources/Weapons/bigob_projector.png
+      327: Resources/Weapons/bigob_focus.png
+      328: Resources/Weapons/bigob_hand.png
+      329: Resources/Weapons/bigob_dp64.png
+      340: Resources/Weapons/bigob_dp_grenade_he.png
+      341: Resources/Weapons/bigob_dp_grenade_p.png
+      344: Resources/Weapons/bigob_repair_tool.png
+      345: Resources/Weapons/bigob_laser_pistol.png
+      346: Resources/Weapons/bigob_blob.png
+      347: Resources/Weapons/bigob_burner.png
+      350: Resources/Armors/magpack_3x3.png
+      351: Resources/Armors/ionpack_3x3.png
+      352: Resources/Armors/balpack_2x3.png
+      363: Resources/Weapons/bigob_hj_smg_empty.png
+      364: Resources/Weapons/Bigob_HG_cannon_empty.png
+      400: Resources/units/bigob_mindworms.png 
+      405: Resources/units/bigob_locust.gif
+      406: Resources/units/bigob_jelly.png
+      407: Resources/Weapons/bigob_dartr_st.png
+      408: Resources/Weapons/bigob_supressor.png
+      409: Resources/Weapons/bigob_spawner.png
+      410: Resources/Weapons/bigob_tangler.png
+      411: Resources/Weapons/bigob_infector.png
+      412: Resources/Weapons/bigob_vampire.png
+      414: Resources/Weapons/bigob_piercer.png
+      415: Resources/Weapons/bigob_piercer_dart.png
+      417: Resources/Weapons/bigob_injector.png
+      418: Resources/units/bigob_servitor.png
+      425: Resources/armors/bigob_a_bio_suit.png
+      426: Resources/Weapons/bigob_bubble.png
+      427: Resources/Weapons/bigob_spray.png
+      428: Resources/Weapons/bigob_brain.png
+      429: Resources/Weapons/bigob_cocoon.png
+      432: Resources/units/bigob_drone_s_corpse.png
+      433: Resources/Weapons/bigob_target.png
+      
+  - type: BIGOBS.PCK
+    width: 288
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      330: Resources/Weapons/Terror.png
+  - type: BIGOBS.PCK
+    width: 96
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      360: Resources/Weapons/bigobs_weapons_empty.png
+  - type: BIGOBS.PCK
+    width: 96
+    height: 48
+    subX: 32
+    subY: 48
+    files:
+      366: Resources/Weapons/bigobs_weapons_full.png
+  - type: BIGOBS.PCK
+    width: 33
+    height: 17
+    files:
+      430: Resources/Weapons/blank_2x1.png
+  - type: BIGOBS.PCK
+    width: 49
+    height: 49
+    files:
+      431: Resources/Weapons/blank_3x3.png
+  - type: BIGOBS.PCK
+    width: 65
+    height: 33
+    files:
+      434: Resources/Weapons/blank_4x2.png
 
+
+#------MENU BACKGROUNDS
   - type: RISINGFROMTHEDEEP
     singleImage: true
     width: 320
@@ -132,7 +349,6 @@ extraSprites:
 
 
 #------EVENTS BACKGROUNDS
-
   - type: BEGINNINGEVENT
     singleImage: true
     width: 320
@@ -143,7 +359,6 @@ extraSprites:
 
 
 #------USOPEDIA BACKGROUNDS
-
   - type: AQUATOIDCRYOGENICSUSOPEDIA
     singleImage: true
     width: 320
