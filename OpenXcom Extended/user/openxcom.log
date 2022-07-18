@@ -1,68 +1,44 @@
-[17-07-2022_23-17-38]	[INFO]	OpenXcom Version: Extended 7.6 (v2022-07-15)
-[17-07-2022_23-17-38]	[INFO]	Platform: Windows 64 bit
-[17-07-2022_23-17-38]	[INFO]	Data folder is: 
-[17-07-2022_23-17-38]	[INFO]	Data search is: 
-[17-07-2022_23-17-38]	[INFO]	- C:/Users/thusk/Documents/OpenXcom/
-[17-07-2022_23-17-38]	[INFO]	- E:/Dropbox/Xcom_Rising From The Deep/Xcom-Rising_From_The_Deep/OpenXcom Extended/
-[17-07-2022_23-17-38]	[INFO]	User folder is: E:/Dropbox/Xcom_Rising From The Deep/Xcom-Rising_From_The_Deep/OpenXcom Extended/user/
-[17-07-2022_23-17-38]	[INFO]	Config folder is: E:/Dropbox/Xcom_Rising From The Deep/Xcom-Rising_From_The_Deep/OpenXcom Extended/user/
-[17-07-2022_23-17-38]	[INFO]	Options loaded successfully.
-[17-07-2022_23-17-39]	[INFO]	SDL initialized successfully.
-[17-07-2022_23-17-39]	[INFO]	SDL_mixer initialized successfully.
-[17-07-2022_23-17-39]	[INFO]	Attempted locale: 
-[17-07-2022_23-17-39]	[INFO]	Detected locale: C
-[17-07-2022_23-17-39]	[INFO]	Attempting to set display to 1920x1080x8...
-[17-07-2022_23-17-39]	[INFO]	Display set to 1920x1080x8.
-[17-07-2022_23-17-39]	[INFO]	Loading data...
-[17-07-2022_23-17-39]	[INFO]	Scanning standard mods in ''...
-[17-07-2022_23-17-39]	[INFO]	Scanning user mods in 'E:/Dropbox/Xcom_Rising From The Deep/Xcom-Rising_From_The_Deep/OpenXcom Extended/user/'...
-[17-07-2022_23-17-39]	[ERROR]	FileMap::mapExtResources(xcom1, UFO): external resources not found.
-[17-07-2022_23-17-39]	[INFO]	Active mods:
-[17-07-2022_23-17-39]	[INFO]	- xcom2 v1.0
-[17-07-2022_23-17-39]	[INFO]	- orchestra-of-the-deep v0.5.0
-[17-07-2022_23-17-39]	[INFO]	Loading begins...
-[17-07-2022_23-17-39]	[INFO]	Pre-loading rulesets...
-[17-07-2022_23-17-39]	[INFO]	Loading vanilla resources...
-[17-07-2022_23-17-40]	[INFO]	Loading rulesets...
-[17-07-2022_23-17-40]	[INFO]	Loading rulesets done.
-[17-07-2022_23-17-40]	[INFO]	Loading fonts... Font.dat
-[17-07-2022_23-17-40]	[INFO]	Lazy loading: 1
-[17-07-2022_23-17-40]	[INFO]	Loading custom palettes from ruleset...
-[17-07-2022_23-17-40]	[INFO]	Making palette backups...
-[17-07-2022_23-17-40]	[INFO]	After load.
-[17-07-2022_23-17-40]	[INFO]	Loading ended.
-[17-07-2022_23-17-40]	[INFO]	Data loaded successfully.
-[17-07-2022_23-17-40]	[INFO]	Loading language...
-[17-07-2022_23-17-40]	[INFO]	Language loaded successfully.
-[17-07-2022_23-17-40]	[INFO]	OpenXcom started successfully!
-[17-07-2022_23-17-40]	[INFO]	Playing flx, 320x200, 200 frames
-[17-07-2022_23-17-40]	[INFO]	Using software scaling routine. For best results, try an OpenGL filter.
-[17-07-2022_23-17-41]	[INFO]	SDL_mixer initialized successfully.
-[17-07-2022_23-17-45]	[INFO]	SDL_mixer initialized successfully.
-[17-07-2022_23-17-45]	[INFO]	Loading data...
-[17-07-2022_23-17-45]	[INFO]	Scanning standard mods in ''...
-[17-07-2022_23-17-45]	[INFO]	Scanning user mods in 'E:/Dropbox/Xcom_Rising From The Deep/Xcom-Rising_From_The_Deep/OpenXcom Extended/user/'...
-[17-07-2022_23-17-45]	[ERROR]	FileMap::mapExtResources(xcom1, UFO): external resources not found.
-[17-07-2022_23-17-45]	[INFO]	Active mods:
-[17-07-2022_23-17-45]	[INFO]	- xcom2 v1.0
-[17-07-2022_23-17-45]	[INFO]	- orchestra-of-the-deep v0.5.0
-[17-07-2022_23-17-45]	[INFO]	- RFTD v1.0
-[17-07-2022_23-17-46]	[INFO]	Loading begins...
-[17-07-2022_23-17-46]	[INFO]	Pre-loading rulesets...
-[17-07-2022_23-17-46]	[INFO]	Loading vanilla resources...
-[17-07-2022_23-17-46]	[INFO]	Loading rulesets...
-[17-07-2022_23-17-46]	[INFO]	Loading rulesets done.
-[17-07-2022_23-17-46]	[INFO]	Loading fonts... Font.dat
-[17-07-2022_23-17-46]	[INFO]	Lazy loading: 1
-[17-07-2022_23-17-46]	[INFO]	Loading custom palettes from ruleset...
-[17-07-2022_23-17-46]	[INFO]	Making palette backups...
-[17-07-2022_23-17-46]	[INFO]	After load.
-[17-07-2022_23-17-46]	[ERROR]	During linking rulesets of research:
-Error processing 'STR_ALIEN_ORIGINS' in research: Unknown research 'STR_CALCINITE_TERRORIST'
-Error processing 'STR_LOBSTERMAN_COMMANDER' in research: Unknown research 'STR_COMMANDER_PLUS'
-Error processing 'STR_MAGNETIC_ION_ARMOR' in research: Unknown research 'STR_ION_ARMOR'
-Error processing 'STR_MC_DISRUPTOR' in research: Unknown research 'STR_MC_DISRUPTOR_DEP'
-Error processing 'STR_MC_READER' in research: Unknown research 'STR_MC_LAB'
-Error processing 'STR_SONIC_OSCILLATOR' in research: Unknown research 'STR_SONIC_OSCILLATOR_DEP1'
-Error processing 'STR_TLETH_ALIEN_CITY' in research: Unknown research 'STR_COMMANDER_PLUS'
-
+[18-07-2022_07-27-31]	[INFO]	OpenXcom Version: Extended 7.6 (v2022-07-15)
+[18-07-2022_07-27-31]	[INFO]	Platform: Windows 64 bit
+[18-07-2022_07-27-31]	[INFO]	Data folder is: 
+[18-07-2022_07-27-31]	[INFO]	Data search is: 
+[18-07-2022_07-27-31]	[INFO]	- C:/Users/thusk/Documents/OpenXcom/
+[18-07-2022_07-27-31]	[INFO]	- E:/Dropbox/Xcom_Rising From The Deep/Xcom-Rising_From_The_Deep/OpenXcom Extended/
+[18-07-2022_07-27-31]	[INFO]	User folder is: E:/Dropbox/Xcom_Rising From The Deep/Xcom-Rising_From_The_Deep/OpenXcom Extended/user/
+[18-07-2022_07-27-31]	[INFO]	Config folder is: E:/Dropbox/Xcom_Rising From The Deep/Xcom-Rising_From_The_Deep/OpenXcom Extended/user/
+[18-07-2022_07-27-31]	[INFO]	Options loaded successfully.
+[18-07-2022_07-27-31]	[INFO]	SDL initialized successfully.
+[18-07-2022_07-27-31]	[INFO]	SDL_mixer initialized successfully.
+[18-07-2022_07-27-31]	[INFO]	Attempted locale: 
+[18-07-2022_07-27-31]	[INFO]	Detected locale: C
+[18-07-2022_07-27-31]	[INFO]	Attempting to set display to 1920x1080x8...
+[18-07-2022_07-27-31]	[INFO]	Display set to 1920x1080x8.
+[18-07-2022_07-27-31]	[INFO]	Loading data...
+[18-07-2022_07-27-31]	[INFO]	Scanning standard mods in ''...
+[18-07-2022_07-27-31]	[INFO]	Scanning user mods in 'E:/Dropbox/Xcom_Rising From The Deep/Xcom-Rising_From_The_Deep/OpenXcom Extended/user/'...
+[18-07-2022_07-27-31]	[ERROR]	FileMap::mapExtResources(xcom1, UFO): external resources not found.
+[18-07-2022_07-27-31]	[INFO]	Active mods:
+[18-07-2022_07-27-31]	[INFO]	- xcom2 v1.0
+[18-07-2022_07-27-31]	[INFO]	- orchestra-of-the-deep v0.5.0
+[18-07-2022_07-27-31]	[INFO]	- RFTD v1.0
+[18-07-2022_07-27-32]	[INFO]	Loading begins...
+[18-07-2022_07-27-32]	[INFO]	Pre-loading rulesets...
+[18-07-2022_07-27-32]	[INFO]	Loading vanilla resources...
+[18-07-2022_07-27-32]	[INFO]	Loading rulesets...
+[18-07-2022_07-27-32]	[INFO]	Loading rulesets done.
+[18-07-2022_07-27-32]	[INFO]	Loading fonts... Font.dat
+[18-07-2022_07-27-32]	[INFO]	Lazy loading: 1
+[18-07-2022_07-27-32]	[INFO]	Loading custom palettes from ruleset...
+[18-07-2022_07-27-32]	[INFO]	Making palette backups...
+[18-07-2022_07-27-32]	[INFO]	After load.
+[18-07-2022_07-27-32]	[INFO]	Loading ended.
+[18-07-2022_07-27-32]	[INFO]	Data loaded successfully.
+[18-07-2022_07-27-32]	[INFO]	Loading language...
+[18-07-2022_07-27-32]	[INFO]	Language loaded successfully.
+[18-07-2022_07-27-32]	[INFO]	OpenXcom started successfully!
+[18-07-2022_07-27-32]	[INFO]	Playing flx, 320x200, 200 frames
+[18-07-2022_07-27-32]	[INFO]	Using software scaling routine. For best results, try an OpenGL filter.
+[18-07-2022_07-27-33]	[INFO]	SDL_mixer initialized successfully.
+[18-07-2022_07-27-35]	[ERROR]	Failed to load craft STR_TRITON
+[18-07-2022_07-27-35]	[ERROR]	Failed to load craft STR_BARRACUDA
+[18-07-2022_07-27-35]	[ERROR]	Failed to load craft STR_BARRACUDA

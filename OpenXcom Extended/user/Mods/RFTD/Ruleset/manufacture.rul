@@ -1,0 +1,5 @@
+manufacture:
+#Moving Vanilla
+  - delete: STR_MANTA
+  - delete: STR_HAMMERHEAD
+  - delete: STR_LEVIATHAN

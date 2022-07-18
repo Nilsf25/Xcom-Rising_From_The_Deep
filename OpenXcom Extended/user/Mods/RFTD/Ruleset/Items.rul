@@ -1,25 +1,5 @@
 items: 
-#moving vanilla
-  - delete: STR_CRAFT_GAS_CANNON
-  - delete: STR_CRAFT_GAS_CANNON_ROUNDS_X50
-  - delete: STR_HYDRO_JET_CANNON
-  - delete: STR_HJC_AP_AMMO
-  - delete: STR_HJC_HE_AMMO
-  - delete: STR_HJC_P_AMMO
-  - delete: STR_TORPEDO_LAUNCHER
-  - delete: STR_SMALL_TORPEDO
-  - delete: STR_LARGE_TORPEDO
-  - delete: STR_PHOSPHOROUS_TORPEDO
-  - delete: STR_PARTICLE_DISTURBANCE_GRENADE
-  - delete: STR_MC_DISRUPTOR
-  - delete: STR_COELACANTH_GAS_CANNON
-  - delete: STR_HWP_SOLID_HARPOON_BOLTS
-  - delete: STR_COELACANTH_AQUA_JET
-  - delete: STR_HWP_AQUA_JET_MISSILES
-  - delete: STR_COELACANTH_GAUSS
-  - delete: STR_THERMAL_TAZER 
-  - delete: STR_CHEMICAL_FLARE
-  - delete: STR_CORPSE_ARMOR
+#moving vanilla TODO
 
   #Rising from the deep related
 ###XCOM STUFF

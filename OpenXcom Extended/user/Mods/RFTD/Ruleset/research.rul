@@ -4,24 +4,7 @@ research:
     cost: 999
     points: 1
     needItem: true
-#moving vanilla
-  - delete: STR_BIODRONE_TERRORIST
-  - delete: STR_CALCINITE_TERRORIST
-  - delete: STR_DEEP_ONE_TERRORIST
-  - delete: STR_HALLUCINOID_TERRORIST
-  - delete: STR_TENTACULAT_TERRORIST
-  - delete: STR_TRISCENE_TERRORIST
-  - delete: STR_XARQUID_TERRORIST
-  - delete: STR_SONIC_OSCILLATOR_DEP1
-  - delete: STR_SONIC_OSCILLATOR_DEP2
-  - delete: STR_SONIC_OSCILLATOR_DEP3
-  - delete: STR_MC_DISRUPTOR_DEP
-  - delete: STR_MC_LAB
-  - delete: STR_TASOTH_SOLDIER
-  - delete: STR_TASOTH_SQUAD_LEADER
-  - delete: STR_COMMANDER_PLUS
-  - delete: STR_ION_ARMOR
-
+#moving vanilla TODO
 #---------------------------------------Rising from the deep stuff
 #------Aquatoid Research
   - name: STR_AQUATOID_CRYOGENICS
