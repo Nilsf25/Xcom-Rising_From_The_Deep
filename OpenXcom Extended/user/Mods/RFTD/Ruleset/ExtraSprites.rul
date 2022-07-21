@@ -492,7 +492,7 @@ extraSprites:
       1501: Resources/Weapons/handob_shard_cannon.png
       1509: Resources/Weapons/handob_acid_pistol.png
 
-#-------ARMORS_UNITS SPRITESHEETS
+#-------ARMORS/UNITS SPRITESHEETS
   - type: IONSHEET.PCK
     subX: 32
     subY: 40
@@ -1259,6 +1259,92 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/units/inv_servitor.png
+
+#------PROJECTILES AND HITS
+  - type: Projectiles
+    height: 3
+    width: 105
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/Projectiles/needle_bullet.png
+      420: Resources/Projectiles/harpoon_bullet.png
+      455: Resources/Projectiles/gaussbullet.png
+      490: Resources/Projectiles/hgaussbullet.png
+      525: Resources/Projectiles/sonic_land.png
+      595: Resources/Projectiles/laser_beam.gif
+      630: Resources/Projectiles/toxic_bullet.gif
+      665: Resources/Projectiles/frostbeam.png
+      700: Resources/Projectiles/mindbeam.png
+      735: Resources/Projectiles/plasma_bullet.gif
+#735-769 - empty, for invisible bullets
+      910: Resources/Projectiles/spike_bullet.png
+  - type: UnderwaterProjectiles
+    width: 105
+    height: 3
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/Projectiles/needle_bullet.png
+      420: Resources/Projectiles/harpoon_bullet.png
+      455: Resources/Projectiles/gaussbullet.png
+      490: Resources/Projectiles/hgaussbullet.png
+      525: Resources/Projectiles/sonicbeam.png
+      560: Resources/Projectiles/ion_beam1.png
+      595: Resources/Projectiles/laser_beam.gif
+      630: Resources/Projectiles/toxic_bullet.gif
+      665: Resources/Projectiles/frostbeam.png
+      700: Resources/Projectiles/mindbeam.png
+#735-769 - empty, for invisible bullets
+      770: Resources/Projectiles/aquabeam.png
+      805: Resources/Projectiles/piranha_bullet.png
+      840: Resources/Projectiles/tangler_beam.gif
+      875: Resources/Projectiles/infection_bullet.png
+      910: Resources/Projectiles/spike_bullet.png
+  - type: SMOKE.PCK
+    height: 40
+    width: 320
+    subX: 32
+    subY: 40
+    files:
+      500: Resources/Weapons/Hits/laser_hit.gif
+      510: Resources/Weapons/Hits/toxic_hit.gif
+      520: Resources/Weapons/Hits/frost_hit.gif
+      530: Resources/Weapons/Hits/mind_hit.gif
+      540: Resources/Weapons/Hits/turbo_hit.gif
+      550: Resources/Weapons/Hits/tangle_hit.gif
+      560: Resources/Weapons/Hits/smoke.png
+      570: Resources/Weapons/Hits/hit_plasma.png
+      580: Resources/Weapons/Hits/shard_hit.png
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files:
+      600: Resources/Weapons/Hits/orangeskull_hit.gif
+      610: Resources/Weapons/Hits/smoke.png
+      620: Resources/Weapons/Hits/cocoon.png
+  - type: HIT.PCK
+    width: 128
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      104: Resources/Weapons/MeleeAnimations/StunRod.gif
+      108: Resources/Weapons/MeleeAnimations/Sword.gif
+      112: Resources/Weapons/MeleeAnimations/Claws.gif
+      116: Resources/Weapons/MeleeAnimations/SharkAttack.gif
+      120: Resources/Weapons/MeleeAnimations/hit_Drill_Cold.png
+      124: Resources/Weapons/MeleeAnimations/hit_Drill_Hot.png
+      128: Resources/Weapons/MeleeAnimations/hit_Drill_Hot2.png
+  - type: X1.PCK
+    width: 1024
+    height: 128
+    subX: 128
+    subY: 64
+    files:
+      16: Resources/Weapons/Hits/x_splash.png
 
 
 #------MENU BACKGROUNDS
