@@ -851,7 +851,414 @@ extraSprites:
     files:
       0: Resources/Units/officer_sheet.png
 
+#------XCOM ADDITIONAL ARMOR/SOLDIER IMAGES
 
+  - typeSingle: MAN_0F4.SPK
+    fileSingle: Resources/Armors/New_Inv_pics/F0/0f4.png
+
+  - typeSingle: MAN_0M4.SPK
+    fileSingle: Resources/Armors/New_Inv_pics/M0/0M4.png
+
+#---------AQUA PLASTIC ARMOR
+  - typeSingle: MAN_1F4.SPK
+    fileSingle: Resources/Armors/New_Inv_pics/F1/1f4.png
+
+  - typeSingle: MAN_1M4.SPK
+    fileSingle: Resources/Armors/New_Inv_pics/M1/1M4.png
+
+#---------ION ARMOR
+  - typeSingle: MAN_2F4.SPK
+    fileSingle: Resources/Armors/New_Inv_pics/F2/2f4.png
+  
+  - typeSingle: MAN_2M4.SPK
+    fileSingle: Resources/Armors/New_Inv_pics/M2/2M4.png
+
+#---------MAGNETIC-ION ARMOR
+  - typeSingle: MAN_3F4.SPK
+    fileSingle: Resources/Armors/New_Inv_pics/F3/3f4.png
+  
+  - typeSingle: MAN_3M4.SPK
+    fileSingle: Resources/Armors/New_Inv_pics/M3/3M4.png
+
+#---------NEW SUITS
+  - typeSingle: NEWTMANF0.SPK
+    fileSingle: Resources/armors/newtsuit_f0.png
+
+    
+  - typeSingle: NEWTMANM0.SPK
+    fileSingle: Resources/armors/newtsuit_m0.png
+
+
+  - type: EXOMANF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/exosuit_f0.png
+
+    
+  - type: EXOMANM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/exosuit_m0.png
+
+#---------LIGHT VERSIONS
+
+  - type: EXO1MANF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/exosuit1_f0.png
+
+  - type: EXO1MANM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/exosuit1_m0.png
+
+    
+#----------LUNG SUIT    
+  - type: LMANF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/lung_1f0.gif
+
+    
+  - type: LMANM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/lung_1m0.gif
+
+#----------HAZMAT SUIT    
+  - type: HAZMATF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/hazmatarmor.gif
+
+  - type: HAZMATM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/hazmatarmor.gif
+
+#----------COVERALLS
+  - typeSingle: COVERMANF0.SPK
+    fileSingle: Resources/armors/coverall/coverall_armor_f0.png
+
+  - typeSingle: COVERMANM0.SPK
+    fileSingle: Resources/armors/coverall/coverall_armor_m0.png
+
+
+#----------CARAPACE ARMOR
+  - type: CARAPACEMANF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/CARAPACE_ARMOR_f0.png
+    
+  - type: CARAPACEMANM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/CARAPACE_ARMOR_m0.png
+
+#----------BIO SUIT    
+  - type: BIOF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/biosuit_f0.png
+
+  - type: BIOM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/biosuit_m0.png
+
+#----------HYBRID SUIT      
+  - type: HYBRF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/hybrid_suit_f0.png
+
+  - type: HYBRM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/hybrid_suit_m0.png
+
+#----------ADVANCED BIO SUIT      
+
+  - type: ABIOF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/a_BIO_suit_f0.png
+
+  - type: ABIOM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/a_BIO_suit_m0.png
+
+#----------MC ARMOR    
+
+  - type: MCAF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/mc_armor_f0.png
+
+  - type: MCAM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/mc_armor_m0.png
+
+#----------WALKERS
+
+  - type: WALKF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/INV_WALKER.png
+
+  - type: WALKM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/INV_WALKER.png
+
+  - type: WALK2F0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/INV_WALKER2.png
+
+  - type: WALK2M0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/INV_WALKER2.png
+
+#----------ION ARMOR 2   
+
+  - type: ION2F0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/ion_2f0.png
+
+  - type: ION2M0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/ion_2m0.png
+
+#----------MC BATTLE ARMOR
+
+  - type: MCBAF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/mcba_f0.png
+
+  - type: MCBAM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armors/mcba_m0.png
+
+#----------ALIENS/NPCs INVENTORY IMAGES
+  - type: DRONEINV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_drone.png
+  - type: SDRONEINV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_s_drone.png
+  - type: DRONEINV2
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_drone2.png
+  - type: COELACANTHINV
+    singleImage: true
+    files:
+      0: Resources/units/inv_coelacanth.png
+  - type: TURTLEINV
+    singleImage: true
+    files:
+      0: Resources/units/inv_turtle.png
+  - type: DISPLACERINV
+    singleImage: true
+    files:
+      0: Resources/units/inv_displacer.png
+      
+  - type: PALADININV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_paladin.gif
+  - type: OUTCASTINV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_outcast.gif
+      
+  - type: DROWNINV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inventory_drown.gif
+  - type: MUTANT0INV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_mutant0.png
+  - type: MUTANT1INV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_mutant1.png
+  - type: MUTANT2INV
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_mutant2.gif
+  - type: ABYSSIANINV.SPK
+    singleImage: true
+    files:
+      0: Resources/UNITS/inv_jelly.png
+  - type: DISCIPLEINV.SPK
+    singleImage: true
+    files:
+      0: Resources/units/inventory_disciple.gif
+  - type: FANATICINV.SPK
+    singleImage: true
+    files:
+      0: Resources/units/inventory_fanatic.gif
+  - type: DOCKERINV
+    singleImage: true
+    files:
+      0: Resources/UNITS/cargo_worker.gif
+  - type: INVENTORY_CARCHARODON
+    singleImage: true
+    files:
+      0: Resources/units/Carcharodon.gif
+  - type: INVENTORY_AQUATOID
+    singleImage: true
+    files:
+      0: Resources/units/inventory_aquatoid.gif
+  - type: INVENTORY_GILLMAN
+    singleImage: true
+    files:
+      0: Resources/units/inventory_gillman.png
+  - type: INVENTORY_LOBSTERMAN.SPK
+    singleImage: true
+    files:
+      0: Resources/units/inventory_lobsterman.gif
+  - type: INVENTORY_FAT_TOURIST
+    singleImage: true
+    files:
+      0: Resources/units/inventory_fat_tourist.gif
+  - type: INVENTORY_BIKINI_GIRL
+    singleImage: true
+    files:
+      0: Resources/units/inventory_bikini_girl.gif
+  - type: INVENTORY_SURFER
+    singleImage: true
+    files:
+      0: Resources/units/inventory_surfer.png
+  - type: INVENTORY_SAILOR
+    singleImage: true
+    files:
+      0: Resources/units/inventory_sailor.gif
+  - type: INVENTORY_SOLDIER
+    singleImage: true
+    files:
+      0: Resources/units/inventory_soldier.png
+  - type: INVENTORY_OFFICER
+    singleImage: true
+    files:
+      0: Resources/units/inv_officer.png
+  - type: INVENTORY_TASOTH
+    singleImage: true
+    files:
+      0: Resources/units/inventory_tasoth.png
+  - type: INVENTORY_TASOTHGUARD
+    singleImage: true
+    files:
+      0: Resources/units/inventory_tasothguard.png
+  - type: INVENTORY_HEAVYAQUATOID
+    singleImage: true
+    files:
+      0: Resources/units/inventory_heavyaquatoid.gif
+  - type: INVENTORY_HEAVYGILLMAN
+    singleImage: true
+    files:
+      0: Resources/units/inventory_heavygillman.png
+  - type: INVENTORY_BIODRONE
+    singleImage: true
+    files:
+      0: Resources/units/inventory_Biodrone_RGB.png
+  - type: INVENTORY_FREAK
+    singleImage: true
+    files:
+      0: Resources/units/freak_inv.gif
+  - type: INVENTORY_NAGA
+    singleImage: true
+    files:
+      0: Resources/units/inventory_naga.gif
+      
+  - type: INVENTORY_POWERZOMBIE
+    singleImage: true
+    files:
+      0: Resources/units/inv_powerzombie.png
+  - type: INVENTORY_TENTACULAT
+    singleImage: true
+    files:
+      0: Resources/units/inv_tentaculat.png
+  - type: INVENTORY_POLYPH
+    singleImage: true
+    files:
+      0: Resources/units/inv_polyph.png
+  - type: INVENTORY_SLIME
+    singleImage: true
+    files:
+      0: Resources/units/inv_creeper.png
+  - type: INVENTORY_GHOST
+    singleImage: true
+    files:
+      0: Resources/units/inv_ghost.png
+  - type: INVENTORY_NEEDLER
+    singleImage: true
+    files:
+      0: Resources/units/inv_needler.png
+  - type: INVENTORY_WORMS
+    singleImage: true
+    files:
+      0: Resources/units/inv_mindworms.png
+  - type: INVENTORY_LOCUST
+    singleImage: true
+    files:
+      0: Resources/units/inv_locust.png
+  - type: INVENTORY_WORMZOMBIE
+    singleImage: true
+    files:
+      0: Resources/units/inv_wormzombie.png
+  - type: INVENTORY_OCT
+    singleImage: true
+    files:
+      0: Resources/units/inv_oct.png
+  - type: INVENTORY_HELLCRAB
+    singleImage: true
+    files:
+      0: Resources/units/inv_hellcrab.png
+  - type: INVENTORY_CALCINITE
+    singleImage: true
+    files:
+      0: Resources/units/inv_calcinite.png
+  - type: INVENTORY_CALCINITE_PROTO
+    singleImage: true
+    files:
+      0: Resources/units/inv_calcinite_proto.png
+  - type: INVENTORY_DEEP_ONE
+    singleImage: true
+    files:
+      0: Resources/units/inv_deep_one.png
+  - type: INVENTORY_HALLUCINOID
+    singleImage: true
+    files:
+      0: Resources/units/inv_hallucinoid.png
+  - type: INVENTORY_TRISCENE
+    singleImage: true
+    files:
+      0: Resources/units/inv_triscene.png
+  - type: INVENTORY_XARQUID
+    singleImage: true
+    files:
+      0: Resources/units/inv_xarquid.png
+  - type: INVENTORY_ZOMBIE
+    singleImage: true
+    files:
+      0: Resources/units/inv_zombie.png
+  - type: INVENTORY_SERVITOR
+    singleImage: true
+    files:
+      0: Resources/units/inv_servitor.png
 
 
 #------MENU BACKGROUNDS
