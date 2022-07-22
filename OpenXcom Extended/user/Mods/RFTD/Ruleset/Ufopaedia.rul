@@ -51,3 +51,67 @@ ufopaedia:
     image_id: UP036.BDY
     requires: 
       - STR_GAS_CANNON
+
+  - id: STR_HYDRO_JET_CANNON
+    type_id: 14
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_HYDRO_JET_CANNON_UFOPEDIA
+    image_id: UP037.BDY
+    requires: 
+      - STR_HYDRO_JET_CANNON
+
+  - id: STR_TORPEDO_LAUNCHER
+    type_id: 14
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_TORPEDO_LAUNCHER_UFOPEDIA
+    image_id: UP038.BDY
+    requires: 
+      - STR_TORPEDO_LAUNCHER
+
+  - id: STR_MAGNA_BLAST_GRENADE
+    type_id: 14
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_MAGNA_BLAST_GRENADE_UFOPEDIA
+    image_id: UP039.BDY
+    requires: 
+      - STR_MAGNA_BLAST_GRENADE
+
+  - id: STR_DYE_GRENADE
+    type_id: 14
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_DYE_GRENADE_UFOPEDIA
+    image_id: UP040.BDY
+    requires: 
+      - STR_DYE_GRENADE
+
+  - id: STR_PARTICLE_DISTURBANCE_GRENADE
+    type_id: 14
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_PARTICLE_DISTURBANCE_GRENADE_UFOPEDIA
+    image_id: UP041.BDY
+    requires: 
+      - STR_PARTICLE_DISTURBANCE_GRENADE   
+
+  - id: STR_MAGNA_PACK_EXPLOSIVE
+    type_id: 14
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_MAGNA_PACK_EXPLOSIVE_UFOPEDIA
+    image_id: UP042.BDY
+    requires: 
+      - STR_MAGNA_PACK_EXPLOSIVE
+
+  - id: STR_THERMAL_TAZER
+    type_id: 14
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_THERMAL_TAZER_UFOPEDIA
+    image_id: UP044.BDY      
+    requires: 
+      - STR_THERMAL_TAZER
+
+  - id: STR_CHEMICAL_FLARE
+    type_id: 14
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_CHEMICAL_FLARE_UFOPEDIA
+    image_id: UP043.BDY      
+    requires: 
+      - STR_CHEMICAL_FLARE

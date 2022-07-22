@@ -61,3 +61,43 @@ research:
     cost: 20
     points: 0
     needItem: true
+
+  - name: STR_HYDRO_JET_CANNON
+    cost: 20
+    points: 0
+    needItem: true
+
+  - name: STR_TORPEDO_LAUNCHER
+    cost: 25
+    points: 0
+    needItem: true
+
+  - name: STR_MAGNA_BLAST_GRENADE
+    cost: 15
+    points: 0
+    needItem: true
+
+  - name: STR_DYE_GRENADE
+    cost: 15
+    points: 0
+    needItem: true
+
+  - name: STR_PARTICLE_DISTURBANCE_GRENADE   
+    cost: 25
+    points: 0
+    needItem: true
+
+  - name: STR_MAGNA_PACK_EXPLOSIVE
+    cost: 20
+    points: 0
+    needItem: true
+
+  - name: STR_THERMAL_TAZER
+    cost: 10
+    points: 0
+    needItem: true
+
+  - name: STR_CHEMICAL_FLARE
+    cost: 5
+    points: 0
+    needItem: true
