@@ -1,0 +1,80 @@
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      80: Resources/Sounds/ads.wav
+      81: Resources/Sounds/HumanBulletHit.wav
+      82: Resources/Sounds/spp.wav
+      83: Resources/Sounds/cl.wav
+      84: Resources/Sounds/Hambu.wav
+      85: Resources/Sounds/ArrowHit.wav
+      86: Resources/Sounds/melee.wav
+      87: Resources/Sounds/old/laserhit.wav
+      88: Resources/Sounds/fly_movement.wav
+      89: Resources/Sounds/fly_death.wav
+      90: Resources/Sounds/silent_bak.wav
+      91: Resources/Sounds/old/ak_fire.wav
+      92: Resources/Sounds/old/shotgunfire.wav
+      93: Resources/Sounds/old/lmgfire.wav
+      94: Resources/Sounds/old/revolverfire.wav
+      95: Resources/Sounds/old/flamethrower.wav
+      96: Resources/Sounds/old/ex_fire.wav
+      97: Resources/Sounds/old/laserriflefire.wav
+      98: Resources/Sounds/old/lasercarbinefire.wav
+      99: Resources/Sounds/old/xriflefire.wav
+      100: Resources/Sounds/dart.ogg
+      101: Resources/Sounds/chains.wav
+      102: Resources/Sounds/drone_move.wav
+      103: Resources/Sounds/s_drone_move.wav
+      110: Resources/Sounds/dsbfg.wav
+      111: Resources/Sounds/plasmahit.ogg
+      112: Resources/Sounds/glass1.wav
+      191: Resources/Sounds/zombie_death.wav 
+      192: Resources/Sounds/psimiss.wav  
+      193: Resources/Sounds/splush.wav
+      194: Resources/Sounds/snake_die.ogg
+      195: Resources/Sounds/snake_move.ogg
+      196: Resources/Sounds/bulbul4.ogg
+      197: Resources/Sounds/tornado.ogg
+      198: Resources/Sounds/spit.ogg
+      199: Resources/Sounds/spawn.ogg
+      200: Resources/Sounds/bulbul3.ogg
+      201: Resources/Sounds/Drill_attack.wav
+      202: Resources/Sounds/Drill_Hit.wav
+      203: Resources/Sounds/hit_extinguisher_1.ogg
+      300: Resources/Sounds/SharkScream2.ogg
+
+  - type: BATTLE2.CAT
+    files:
+      80: Resources/Sounds/ads.wav
+      81: Resources/Sounds/HumanBulletHit.wav
+      82: Resources/Sounds/spp.wav
+      83: Resources/Sounds/cl.wav
+      84: Resources/Sounds/Hambu.wav
+      85: Resources/Sounds/ArrowHit.wav
+      86: Resources/Sounds/melee.wav
+      87: Resources/Sounds/old/laserhit.wav
+      90: Resources/Sounds/silent_bak.wav
+      100: Resources/Sounds/dart.ogg
+      101: Resources/Sounds/chains.wav
+      102: Resources/Sounds/drone_move.wav
+      103: Resources/Sounds/s_drone_move.wav
+      110: Resources/Sounds/dsbfg.wav
+      111: Resources/Sounds/plasmahit.ogg
+      112: Resources/Sounds/glass1.wav
+      191: Resources/Sounds/zombie_death.wav 
+      192: Resources/Sounds/psimiss.wav  
+      193: Resources/Sounds/splush.wav
+      194: Resources/Sounds/snake_die.ogg
+      195: Resources/Sounds/snake_move.ogg
+      196: Resources/Sounds/bulbul4.ogg
+      197: Resources/Sounds/tornado.ogg
+      198: Resources/Sounds/spit.ogg
+      199: Resources/Sounds/spawn.ogg
+      200: Resources/Sounds/bulbul3.ogg
+      201: Resources/Sounds/Drill_attack.wav
+      202: Resources/Sounds/Drill_Hit.wav
+      203: Resources/Sounds/bubbles_1.ogg
+      300: Resources/Sounds/SharkScreamUW.ogg
+  - type: GEO.CAT
+    files:
+      57: Resources/Sounds/bomb_launch.wav

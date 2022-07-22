@@ -1,4 +1,10 @@
 items: 
+#------Removing Vanilla
+  - delete: STR_HYDRO_JET_CANNON
+  - delete: STR_HJC_AP_AMMO
+  - delete: STR_HJC_HE_AMMO
+  - delete: STR_HJC_P_AMMO
+
 #------Changing Vanilla to TWOTS
   - type: STR_DART_PISTOL
     categories: [STR_DUALENV_WEAPONS]
@@ -44,6 +50,396 @@ items:
     vaporColor: 0
     vaporDensity: 5
     listOrder: 2100
+  - type: STR_DART_POD_ST
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.1
+    costSell: 80
+    requiresBuy: [STR_NEVER]    
+    weight: 2
+    bigSprite: 150
+    floorSprite: 4
+    handSprite: 240
+    hitSound: 100
+    hitAnimation: 26
+    power: 20
+    damageType: 6
+    blastRadius: 0
+    clipSize: 12
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 5
+    bulletSpeed: 3
+    listOrder: 2110
+  - type: STR_DART_POD_SC
+    categories: [STR_DEEP_WEAPONS]
+    size: 0.1
+    costSell: 80
+    requiresBuy: [STR_NEVER]    
+    weight: 2
+    bigSprite: 151
+    floorSprite: 4
+    handSprite: 240
+    hitSound: 21
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 5
+    bulletSpeed: 3
+    listOrder: 2120
+
+
+  - type: STR_JET_HARPOON
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.2
+    costSell: 4000
+    requiresBuy: [STR_NEVER]
+    weight: 8
+    bigSprite: 360
+    floorSprite: 1
+    handSprite: 0
+    bulletSprite: 2
+    fireSound: 19
+    compatibleAmmo:
+      - STR_HARPOON_POD
+      - STR_HARPOON_POD_SC
+      - STR_HARPOON_POD_ST
+    accuracyAuto: 40
+    accuracySnap: 60
+    accuracyAimed: 90
+    tuAuto: 40
+    tuSnap: 35
+    tuAimed: 70
+    maxRange: 25
+    aimRange: 20
+    snapRange: 15
+    autoRange: 10
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    listOrder: 2200
+  - type: STR_HARPOON_POD
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.1
+    costSell: 250
+    requiresBuy: [STR_NEVER]
+    weight: 2
+    bigSprite: 2
+    floorSprite: 2
+    handSprite: 248
+    hitSound: 16
+    hitAnimation: 26
+    power: 32
+    damageType: 1
+    clipSize: 9
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 10
+    listOrder: 2300
+  - type: STR_HARPOON_POD_SC
+    categories: [STR_DEEP_WEAPONS]
+    size: 0.1
+    costSell: 200
+    requiresBuy: [STR_NEVER]    
+    weight: 2
+    bigSprite: 152
+    floorSprite: 2
+    handSprite: 248
+    hitSound: 16
+    hitAnimation: 26
+    power: 48
+    damageType: 1
+    clipSize: 9
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 10
+    bulletSpeed: 3
+    listOrder: 2310
+  - type: STR_HARPOON_POD_ST
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.1
+    costSell: 220
+    requiresBuy: [STR_NEVER]    
+    weight: 2
+    bigSprite: 407
+    floorSprite: 2
+    handSprite: 248
+    hitSound: 100
+    hitAnimation: 26
+    power: 35
+    damageType: 6
+    damageAlter:
+      ArmorEffectiveness: 1.2
+    blastRadius: 0
+    clipSize: 9
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 10
+    bulletSpeed: -2
+    listOrder: 2311
+
+
+  - type: STR_GAS_CANNON
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.3
+    costSell: 7500
+    weight: 27
+    bigSprite: 361
+    floorSprite: 11
+    handSprite: 24
+    bulletSprite: 4
+    fireSound: 24
+    requiresBuy: [STR_NEVER]
+    compatibleAmmo:
+      - STR_GC_AP_AMMO
+      - STR_GC_HE_AMMO
+      - STR_GC_P_AMMO
+      - STR_GC_ZR_AMMO
+    accuracySnap: 60
+    accuracyAimed: 90
+    maxRange: 30
+    aimRange: 25
+    snapRange: 20
+    tuSnap: 40
+    tuAimed: 75
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    arcingShot: true
+    listOrder: 2400    
+  - type: STR_GC_AP_AMMO
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.1
+    costSell: 355
+    requiresBuy: [STR_NEVER]
+    weight: 5
+    bigSprite: 12
+    floorSprite: 8
+    handSprite: 272
+    hitSound: 21
+    hitAnimation: 26
+    power: 50
+    damageType: 1
+    clipSize: 8
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 50
+    attraction: 1
+    vaporColor: 0
+    vaporDensity: 15
+    listOrder: 2500
+  - type: STR_GC_HE_AMMO
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.1
+    costSell: 575
+    requiresBuy: [STR_NEVER]
+    weight: 6
+    bigSprite: 13
+    floorSprite: 9
+    handSprite: 256
+    hitSound: 0
+    hitAnimation: 8
+    power: 65
+    damageType: 3
+    clipSize: 8
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 50
+    attraction: 1
+    vaporColor: 0
+    vaporDensity: 15
+    arcingShot: true
+    listOrder: 2600
+  - type: STR_GC_P_AMMO
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.1
+    costSell: 500
+    requiresBuy: [STR_NEVER]
+    weight: 6
+    bigSprite: 14
+    floorSprite: 10
+    handSprite: 264
+    hitSound: 0
+    hitAnimation: 8
+    power: 60
+    damageType: 2
+    clipSize: 8
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 50
+    attraction: 1
+    vaporColor: 0
+    vaporDensity: 15
+    arcingShot: true
+    listOrder: 2700
+  - type: STR_GC_ZR_AMMO
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.1
+    costSell: 725
+    requiresBuy: [STR_NEVER]    
+    weight: 6
+    bigSprite: 231
+    floorSprite: 8
+    handSprite: 272
+    hitSound: 0
+    hitAnimation: 8
+    power: 80
+    damageType: 3
+    clipSize: 8
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 50
+    attraction: 1
+    vaporColor: 0
+    vaporDensity: 15
+    listOrder: 2710
+
+
+  - type: STR_HYDRO_JET_CANNON
+    categories: [STR_DEEP_WEAPONS]
+    size: 0.3
+    costSell: 15000
+    requiresBuy: [STR_NEVER]        
+    weight: 29
+    bigSprite: 7
+    floorSprite: 7
+    handSprite: 32
+    bulletSprite: 3
+    fireSound: 23
+    compatibleAmmo:
+      - STR_HJC_AP_AMMO
+      - STR_HJC_HE_AMMO
+      - STR_HJC_P_AMMO
+      - STR_HJC_SC_AMMO
+      - STR_HJC_ZR_AMMO
+    accuracyAuto: 40
+    accuracySnap: 50
+    tuAuto: 40
+    tuSnap: 35
+    maxRange: 30
+    snapRange: 14
+    autoRange: 8
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    underwaterOnly: true
+    listOrder: 2800
+  - type: STR_HJC_AP_AMMO
+    categories: [STR_DEEP_WEAPONS]
+    size: 0.1
+    costSell: 600
+    requiresBuy: [STR_NEVER]           
+    weight: 5
+    bigSprite: 8
+    floorSprite: 13
+    handSprite: 296
+    hitSound: 21
+    hitAnimation: 26
+    power: 40
+    damageType: 1
+    clipSize: 14
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 40
+    vaporColor: 0
+    vaporDensity: 10
+    listOrder: 2900
+  - type: STR_HJC_HE_AMMO
+    categories: [STR_DEEP_WEAPONS]
+    size: 0.1
+    costSell: 800
+    requiresBuy: [STR_NEVER]           
+    weight: 5
+    bigSprite: 9
+    floorSprite: 14
+    handSprite: 280
+    hitSound: 0
+    hitAnimation: 8
+    power: 50
+    damageType: 3
+    clipSize: 14
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 40
+    vaporColor: 0
+    vaporDensity: 10
+    listOrder: 3000
+  - type: STR_HJC_P_AMMO
+    categories: [STR_DEEP_WEAPONS]
+    size: 0.1
+    costSell: 700
+    requiresBuy: [STR_NEVER]           
+    weight: 5
+    bigSprite: 10
+    floorSprite: 12
+    handSprite: 288
+    hitSound: 0
+    hitAnimation: 8
+    power: 40
+    damageType: 2
+    clipSize: 14
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 40
+    attraction: 1
+    vaporColor: 0
+    vaporDensity: 10
+    listOrder: 3100
+  - type: STR_HJC_SC_AMMO
+    categories: [STR_DEEP_WEAPONS]
+    size: 0.1
+    costSell: 700
+    requiresBuy: [STR_NEVER]           
+    weight: 5
+    bigSprite: 153
+    floorSprite: 13
+    handSprite: 296
+    hitSound: 21
+    hitAnimation: 26
+    power: 55
+    damageType: 1
+    clipSize: 14
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 40
+    vaporColor: 0
+    vaporDensity: 10
+    bulletSpeed: 3
+    listOrder: 3110
+  - type: STR_HJC_ZR_AMMO
+    categories: [STR_DEEP_WEAPONS]
+    size: 0.1
+    costSell: 950
+    requiresBuy: [STR_NEVER]           
+    weight: 5
+    bigSprite: 232
+    floorSprite: 13
+    handSprite: 296
+    hitSound: 0
+    hitAnimation: 8
+    power: 75
+    damageType: 3
+    clipSize: 14
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 40
+    vaporColor: 0
+    vaporDensity: 10
+    listOrder: 3112
 
 
 
