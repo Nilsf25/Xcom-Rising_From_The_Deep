@@ -1,8 +1,55 @@
 items: 
-#moving vanilla TODO
+#------Changing Vanilla to TWOTS
+  - type: STR_DART_PISTOL
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.1
+    costSell: 0
+    weight: 5
+    bigSprite: 362
+    requiresBuy: [STR_NEVER]
+    floorSprite: 3
+    handSprite: 96
+    bulletSprite: 1
+    fireSound: 20
+    compatibleAmmo:
+      - STR_DART_POD
+      - STR_DART_POD_ST
+      - STR_DART_POD_SC
+    accuracySnap: 40
+    accuracyAimed: 80
+    tuSnap: 20
+    tuAimed: 50
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    maxRange: 20
+    aimRange: 12
+    snapRange: 9
+    listOrder: 2000
+  - type: STR_DART_POD
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.1
+    costSell: 80
+    requiresBuy: [STR_NEVER]
+    weight: 2
+    bigSprite: 4
+    floorSprite: 4
+    handSprite: 240
+    hitSound: 21
+    hitAnimation: 26
+    power: 16
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 5
+    listOrder: 2100
 
-  #Rising from the deep related
-###XCOM STUFF
+
+
+
+#------Rising from the deep related
+#---XCOM STUFF
 
   - type: STR_XCOM_CORPSE
     name: STR_HUMAN_CORPSE

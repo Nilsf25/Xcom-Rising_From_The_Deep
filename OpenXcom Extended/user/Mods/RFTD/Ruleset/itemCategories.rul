@@ -1,0 +1,35 @@
+﻿itemCategories:
+  - type: STR_CRAFT_WEAPONS
+    listOrder: 2
+  - type: STR_CRAFT_AMMO
+    listOrder: 4
+  - type: STR_SWS
+    listOrder: 8
+  - type: STR_SWS_AMMO
+    listOrder: 10
+
+  - type: STR_ARMOR
+    listOrder: 15
+
+  - type: STR_SURFACE_WEAPONS
+    listOrder: 20
+  - type: STR_DEEP_WEAPONS
+    listOrder: 25
+  - type: STR_DUALENV_WEAPONS
+    listOrder: 30
+
+  - type: STR_ARTIFACT
+    listOrder: 35
+  - type: STR_ALIEN_DEVICES
+    listOrder: 40
+  - type: STR_ALIEN_COMPONENT
+    listOrder: 45
+
+  - type: STR_LIVE_HUMAN
+    listOrder: 55
+  - type: STR_HUMAN_CORPSE
+    listOrder: 57
+  - type: STR_LIVE_ALIEN
+    listOrder: 59
+  - type: STR_ALIEN_CORPSE
+    listOrder: 60
