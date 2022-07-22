@@ -1,6 +1,7 @@
 ufopaedia:
 #--------------------------------Rising From The deep Articles
 #------Aquatoid Articles
+#---Facilities
   - id: STR_LIVING_QUARTERS
     type_id: 16
     section: STR_BASE_FACILITIES
@@ -8,3 +9,45 @@ ufopaedia:
     image_id: AQUATOIDCRYOGENICSUSOPEDIA
     requires:
       - STR_AQUATOID_CRYOGENICS
+#------Human Articles
+#---Crafts
+  - id: STR_TRITON
+    type_id: 17
+    section:  STR_UFOS
+    image_id: UP001.BDY
+    text: STR_TRITON_UFOPEDIA
+    requires: 
+      - STR_TRITON
+
+  - id: STR_BARRACUDA
+    type_id: 17
+    section:  STR_UFOS
+    image_id: UP004.BDY
+    text: STR_BARRACUDA_UFOPEDIA
+    requires: 
+      - STR_BARRACUDA
+
+#---General Equipment (weapons/ammo/utility)
+  - id: STR_DART_PISTOL
+    type_id: 14
+    section:  STR_ALIEN_RESEARCH_UC
+    image_id: UP034.BDY
+    text: STR_DART_PISTOL_UFOPEDIA
+    requires: 
+      - STR_DART_PISTOL
+
+  - id: STR_JET_HARPOON
+    type_id: 14
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_JET_HARPOON_UFOPEDIA
+    image_id: UP035.BDY
+    requires: 
+      - STR_JET_HARPOON
+
+  - id: STR_GAS_CANNON
+    type_id: 14
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_GAS_CANNON_UFOPEDIA
+    image_id: UP036.BDY
+    requires: 
+      - STR_GAS_CANNON

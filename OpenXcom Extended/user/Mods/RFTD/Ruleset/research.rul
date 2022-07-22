@@ -7,6 +7,7 @@ research:
 #moving vanilla TODO
 #---------------------------------------Rising from the deep stuff
 #------Aquatoid Research
+#---Facilities
   - name: STR_AQUATOID_CRYOGENICS
     cost: 30
     points: 0
@@ -17,15 +18,46 @@ research:
     cost: 30
     points: 0
 
+#---Technologies
   - name: STR_EXTRACT_CRYO_DATA
     cost: 0
     points: 0
     dependencies:
       - STR_AQUATOID_CRYOGENICS    
 
+
+#---Ranks
   - name: STR_AQUATOID_FROZEN_MEDIC
     cost: 0
     points: 0
     requires:
       - STR_EXTRACT_CRYO_DATA   
+    needItem: true
+
+#------Human Research
+#---Crafts
+  - name: STR_TRITON
+    cost: 30
+    points: 0
+    needItem: true
+
+  - name: STR_BARRACUDA
+    cost: 30
+    points: 0
+    needItem: true
+
+#---General Equipment (weapons/ammo/utility)
+  - name: STR_DART_PISTOL
+    cost: 10
+    points: 0
+    needItem: true
+
+  - name: STR_JET_HARPOON
+    cost: 15
+    points: 0
+    needItem: true
+
+  - name: STR_GAS_CANNON
+    cost: 20
+    points: 0
     needItem: true
