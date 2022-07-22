@@ -586,3 +586,19 @@ interfaces: #slightly increased size of buttons
         color: 1
       - id: button2
         color: 1
+
+  - type: geoscapeEvent
+    palette: PAL_BASESCAPE          
+    elements:
+      - id: palette
+        color: 1
+      - id: window
+        color: 56
+      - id: text1
+        color: 164
+        color2: 165
+      - id: text2
+        color: 2
+        color2: 3
+      - id: button
+        color: 3

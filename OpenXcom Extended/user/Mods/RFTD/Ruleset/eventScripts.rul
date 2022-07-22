@@ -1,0 +1,8 @@
+eventScripts: 
+  - type: STR_BEGINNING_EVENT_SCRIPT
+    firstMonth: 0 #Runs on the beginning of the game
+    lastMonth: 0
+    executionOdds: 100
+    eventWeights:
+      0:
+        STR_BEGINNING_EVENT: 100

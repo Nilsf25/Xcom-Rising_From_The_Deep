@@ -1,6 +1,4 @@
 events:
-#-------------------------------------------Rising From The Deep Stuff
-
   - name: STR_BEGINNING_EVENT
     description: STR_BEGINNING_EVENT_DESCRIPTION
     background: BEGINNINGEVENT
