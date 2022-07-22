@@ -570,22 +570,23 @@ interfaces: #slightly increased size of buttons
         color: 112   # pink
 
   - type: ufopaedia
-    backgroundImage: BACK01.SCR
+    palette: PAL_BASESCAPE            
+    backgroundImage: EXAMINATIONROOM
     elements:
       - id: palette
-        color: 4
+        color: 1
       - id: window
-        color: 1
+        color: 56
       - id: text
-        color: 1
+        color: 164
       - id: list
-        color: 1
-        color2: 239
+        color: 165
+        color2: 163
         border: 1
       - id: button1
-        color: 1
+        color: 3
       - id: button2
-        color: 1
+        color: 3
 
   - type: geoscapeEvent
     palette: PAL_BASESCAPE          
