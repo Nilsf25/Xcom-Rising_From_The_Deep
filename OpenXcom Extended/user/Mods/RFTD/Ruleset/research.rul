@@ -46,6 +46,21 @@ research:
     points: 0
     needItem: true
 
+  - name: STR_AJAX
+    cost: 15
+    points: 0
+    needItem: true
+
+  - name: STR_DUP_HEAD  
+    cost: 15
+    points: 0
+    needItem: true
+
+  - name: STR_CRAFT_GAS_CANNON_UC  
+    cost: 10
+    points: 0
+    needItem: true
+
 #---General Equipment (weapons/ammo/utility)
   - name: STR_DART_PISTOL
     cost: 10
@@ -101,3 +116,15 @@ research:
     cost: 5
     points: 0
     needItem: true
+
+#---Mechanical Units
+  - name: STR_COELACANTH_GAS_CANNON
+    cost: 25
+    points: 0
+    needItem: true
+
+  - name: STR_COELACANTH_AQUA_JET
+    cost: 25
+    points: 0
+    needItem: true
+

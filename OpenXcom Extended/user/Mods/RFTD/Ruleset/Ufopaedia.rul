@@ -27,6 +27,30 @@ ufopaedia:
     requires: 
       - STR_BARRACUDA
 
+  - id: STR_AJAX
+    type_id: 12
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UP054.BDY
+    text: STR_AJAX_UFOPEDIA
+    requires: 
+      - STR_AJAX    
+
+  - id: STR_DUP_HEAD
+    type_id: 12
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UP055.BDY
+    text: STR_DUP_HEAD_UFOPEDIA
+    requires: 
+      - STR_DUP_HEAD     
+
+  - id: STR_CRAFT_GAS_CANNON_UC
+    type_id: 12
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: UP056.BDY
+    text: STR_CRAFT_GAS_CANNON_UFOPEDIA      
+    requires: 
+      - STR_CRAFT_GAS_CANNON_UC         
+
 #---General Equipment (weapons/ammo/utility)
   - id: STR_DART_PISTOL
     type_id: 14
@@ -115,3 +139,22 @@ ufopaedia:
     image_id: UP043.BDY      
     requires: 
       - STR_CHEMICAL_FLARE
+
+#---Mechanical Units
+  - id: STR_COELACANTH_GAS_CANNON
+    type_id: 13
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_COELACANTH_GAS_CANNON_UFOPEDIA
+    weapon: STR_DAMAGE_ARMOR_PIERCING
+    image_id: UP027.BDY      
+    requires: 
+      - STR_COELACANTH_GAS_CANNON       
+
+  - id: STR_COELACANTH_AQUA_JET
+    type_id: 13
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_COELACANTH_AQUA_JET_UFOPEDIA
+    weapon: STR_TORPEDO_LAUNCHER
+    image_id: UP057.BDY
+    requires: 
+      - STR_COELACANTH_AQUA_JET       
