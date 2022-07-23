@@ -1,5 +1,10 @@
 facilities: 
-
+#------Removing unused
+  - delete: STR_STANDARD_SONAR
+  - delete: STR_WIDE_ARRAY_SONAR
+  - delete: STR_TORPEDO_DEFENSES
+    
+#------AQUATOID FACILITIES
   - type: STR_AIR_LOCK
     provideBaseFunc: [AQUATOIDBASE]
     lift: true
@@ -16,38 +21,45 @@ facilities:
     missileAttraction: 1
     mapName: GRUNGE04
 
-
   - type: STR_LIVING_QUARTERS
     requires: 
      - STR_AQUATOID_CRYOGENICS
     requiresBaseFunc: [AQUATOIDBASE]
+    personnel: 10    
     missileAttraction: 1
 
-    
   - type: STR_WORKSHOP
     missileAttraction: 1
-
-  - type: STR_STANDARD_SONAR
-    missileAttraction: 2
-
-  - type: STR_WIDE_ARRAY_SONAR
+    requiresBaseFunc: [AQUATOIDBASE]
     requires: 
-     - STR_WIDE_ARRAY_SONAR
-    missileAttraction: 2
-
-  - type: STR_TORPEDO_DEFENSES
-    missileAttraction: 2
+     - STR_NEVER
 
   - type: STR_GENERAL_STORES
     missileAttraction: 1
+    requiresBaseFunc: [AQUATOIDBASE]    
+    requires: 
+     - STR_NEVER    
 
-    
   - type: STR_SUB_PEN
     crafts: 4
     missileAttraction: 2
 
   - type: STR_LABORATORY
-    buildCost: 650000
-    monthlyCost: 30000
-    labs: 25
+    buildCost: 300
+    monthlyCost: 20
+    labs: 5
+    aliens: 15
     missileAttraction: 1
+    requires: 
+     - STR_AQUATOID_EXAMINATIONROOM
+    requiresBaseFunc: [AQUATOIDBASE]    
+
+  - type: STR_ALIEN_CONTAINMENT
+    spriteShape: 1
+    spriteFacility: 25
+    buildCost: 400000
+    buildTime: 18
+    monthlyCost: 15000
+    requiresBaseFunc: [AQUATOIDBASE]        
+    requires: 
+     - STR_NEVER        

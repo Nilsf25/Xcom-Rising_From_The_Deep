@@ -1,4 +1,10 @@
 ufopaedia:
+#------Move Vanilla
+  - delete: STR_STANDARD_SONAR
+  - delete: STR_WIDE_ARRAY_SONAR
+  - delete: STR_TORPEDO_DEFENSES
+  - delete: STR_WORKSHOP
+  - delete: STR_GENERAL_STORES
 #--------------------------------Rising From The deep Articles
 #------Aquatoid Articles
 #---Facilities
@@ -9,6 +15,23 @@ ufopaedia:
     image_id: AQUATOIDCRYOGENICSUSOPEDIA
     requires:
       - STR_AQUATOID_CRYOGENICS
+
+  - id: STR_LABORATORY
+    type_id: 16
+    section: STR_BASE_FACILITIES
+    text: STR_AQUATOID_EXAMINATIONROOM_USOPEDIA
+    image_id: AQUATOIDCRYOGENICSUSOPEDIA
+    requires:
+      - STR_AQUATOID_EXAMINATIONROOM
+
+  - id: STR_ALIEN_CONTAINMENT
+    type_id: 16
+    section: STR_BASE_FACILITIES
+    text: STR_ALIEN_CONTAINMENT_UFOPEDIA
+    image_id: UP080.BDY
+    requires:
+      - STR_NEVER
+
 #------Human Articles
 #---Crafts
   - id: STR_TRITON

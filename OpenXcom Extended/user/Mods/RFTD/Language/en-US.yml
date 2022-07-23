@@ -293,7 +293,7 @@ en-US:
   STR_LABORATORY: "Aquatoid Examination Room"
   STR_WORKSHOP: "Aquatoid Cloning Facility" ###Need to create Cloning+Construction+Manufacture facilities that all access the manufacture function.
   STR_GENERAL_STORES: "Aquatoid Storage"
-  STR_ALIEN_CONTAINMENT: "Aquatoid Examination Room"
+  STR_ALIEN_CONTAINMENT: "Aquatoid Livestock"
   STR_SUB_PEN: "Aquatoid USO Pen"
 
 #--------------------------------Rising From The deep Events
@@ -304,9 +304,10 @@ en-US:
 #--------------------------------Rising From The deep Research
 #------Aquatoid Research+Usopedia
   STR_AQUATOID_CRYOGENICS: "Memory: Aquatoid Cryogenics"
-  STR_AQUATOID_CRYOGENICS_USOPEDIA: "Our ancestors are sealed into units, their body temperature reduced to a point where bodily functions are all but stopped for the past 60 million years. We should now start to investigate old cryogenic facilities spread around the globe to revitalize our ancestor's technologies through their frozen minds.                    [This Aquatoid facility cannot retrieve data from other races, this facility provides +50 living space]"
+  STR_AQUATOID_CRYOGENICS_USOPEDIA: "Our ancestors were sealed into units, their body temperature reduced to a point where bodily functions were all but stopped for the past 60 million years. We should now start to investigate old cryogenic facilities spread around the globe to revitalize our ancestor's technologies through their frozen minds.                    [This Aquatoid facility cannot retrieve data from other races, this facility provides +10 living space]"
   STR_AQUATOID_CLONINGFACILITY: "Memory: Aquatoid Cloning Facility"
   STR_AQUATOID_EXAMINATIONROOM: "Memory: Aquatoid Examination Room"
+  STR_AQUATOID_EXAMINATIONROOM_USOPEDIA: "Humans are more than food, once captured they form the basis of a range of creatures and control systems. Our technology is based on a common mind, a shared intellect, and the human brain is the ideal receptacle for these systems. Human brain tissue is used in most of our biological computer storage and retrieval systems. The remains are used for building, breeding and feeding our troops.                    [This Aquatoid facility is limited to Aquatoid research, this facility provides +5 medics room]"
   STR_AQUATOID_MEDIC: "Extract Data: Frozen Aquatoid Medic"
 
 
