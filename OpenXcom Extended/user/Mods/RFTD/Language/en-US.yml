@@ -198,6 +198,7 @@ en-US:
   STR_SELECT_DESTINATION_BASE: "Select Destination Colony"
   STR_SOLDIER_LIST: "Alien List"
   STR_SOLDIER: "Alien"
+  STR_SCIENTIST: "Medic"
 
 
   ### Missions

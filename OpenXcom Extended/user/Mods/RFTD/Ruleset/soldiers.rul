@@ -1,8 +1,9 @@
 soldiers: #Basic Aquatoids to start for the player
   - delete: STR_SOLDIER
   - type: STR_AQUATOID_SOLDIER
-    costBuy: 500
-    costSalary: 15000
+    requiresBuyBaseFunc: [AQUATOIDBASE]    
+    costBuy: 5
+    costSalary: 1
     statCaps:
       tu: 0
       stamina: 0
@@ -43,8 +44,9 @@ soldiers: #Basic Aquatoids to start for the player
       firing: 0
       
   - type: STR_AQUATOID_SQUAD_LEADER
-    costBuy: 2000
-    costSalary: 15000
+    requiresBuyBaseFunc: [AQUATOIDBASE]      
+    costBuy: 0
+    costSalary: 1
     statCaps:
       tu: 0
       stamina: 0

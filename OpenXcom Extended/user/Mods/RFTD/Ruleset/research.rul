@@ -117,6 +117,17 @@ research:
     points: 0
     needItem: true
 
+  - name: STR_PARTICLE_DISTURBANCE_SENSOR
+    cost: 180
+    points: 20    
+    needItem: true
+
+  - name: STR_MEDI_KIT
+    cost: 210
+    points: 20
+    needItem: true
+
+
 #---Mechanical Units
   - name: STR_COELACANTH_GAS_CANNON
     cost: 25
@@ -128,3 +139,8 @@ research:
     points: 0
     needItem: true
 
+#---Human technologies
+  - name: STR_GAUSS_TECH
+    cost: 50
+    points: 10
+    needItem: true #temporary solution to disable research
