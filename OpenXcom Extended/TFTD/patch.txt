@@ -1,8 +1,0 @@
-OpenXcom Universal TFTD Patch
-==============================
-
-This patch covers all community fixes to the original X-COM: Terror From The Deep data that affect OpenXcom.
-
-To install, extract to your OpenXcom\TFTD folder, overwriting every file.
-
-If you need to patch the original game instead, you should check here: http://www.strategycore.co.uk/files/x-com-terror-from-the-deep/patches/
