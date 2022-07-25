@@ -1,0 +1,14 @@
+alienMissions:
+#-------Moving vanilla
+  - delete: STR_ALIEN_PROBE_MISSION
+  - delete: STR_ALIEN_INTERDICTION
+  - delete: STR_ALIEN_RESOURCE_RAID  
+  - delete: STR_ALIEN_INFILTRATION  
+  - delete: STR_ALIEN_BASE  
+  - delete: STR_ALIEN_SURFACE_ATTACK  
+  - delete: STR_ALIEN_SHIP_ATTACK  
+  - delete: STR_ALIEN_RETALIATION
+  - delete: STR_ALIEN_SUPPLY
+  - delete: STR_ALIEN_ARTIFACT
+
+#------TWOTS CHANGED MISSIONS

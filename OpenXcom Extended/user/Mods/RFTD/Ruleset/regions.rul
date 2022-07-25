@@ -1,0 +1,21 @@
+regions: 
+#-------Moving vanilla
+  - delete: ARTIFACT_SITES
+  - delete: SHIPPING_LANES
+  - delete: STR_NORTH_ATLANTIC
+  - delete: STR_SOUTH_ATLANTIC
+  - delete: STR_NORTH_PACIFIC
+  - delete: STR_SOUTH_PACIFIC
+  - delete: STR_MEDITERRANEAN
+  - delete: STR_SOUTH_CHINA_SEA
+  - delete: STR_INDIAN_OCEAN
+  - delete: STR_THE_EAST_SEA
+  - delete: STR_NORTH_SEA
+  - delete: STR_CARRIBEAN
+  - delete: STR_ANTARCTIC
+  - delete: STR_ARCTIC
+  - delete: STR_EURASIA
+  - delete: STR_NORTH_AMERICA
+  - delete: STR_AFRICA
+
+#------TWOTS CHANGED MISSIONSCRIPTS
