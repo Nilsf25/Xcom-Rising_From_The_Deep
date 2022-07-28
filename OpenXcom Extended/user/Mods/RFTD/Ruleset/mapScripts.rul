@@ -1,0 +1,6 @@
+mapScripts: #done
+  - type: STR_CRYOMISSION_MEDIC
+    commands:
+    - type: addCraft
+    - type: addBlock
+      blocks: []
