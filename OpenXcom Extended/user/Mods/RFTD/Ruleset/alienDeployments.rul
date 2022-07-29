@@ -1,0 +1,31 @@
+alienDeployments: 
+
+  - delete: STR_ISLAND_TERROR
+
+#Tests for Xcom Rising from the deep
+  - type: STR_AQUATOID_MEDIC_CRYO_NAGA
+    data:
+      - alienRank: 0
+        lowQty: 5
+        highQty: 8
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_TRIDENT
+          -
+            - STR_TRIDENT
+          -
+            - STR_TRIDENT            
+    width: 40
+    length: 40
+    height: 4
+    terrains:
+      - CORAL
+    shade: 15
+    depth: [3, 3]    
+    script: STR_CRYOMISSION_MEDIC            
+    startingCondition: STR_UNDERWATER
+    race: STR_NAGA
+    duration: [672, 672]
+    

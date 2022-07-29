@@ -20,6 +20,7 @@ items:
 
 
 #------Changing Vanilla to TWOTS
+#---XCOM items
   - type: STR_DART_PISTOL
     categories: [STR_DUALENV_WEAPONS]
     size: 0.1
@@ -746,7 +747,6 @@ items:
     listOrder: 1500
     clipSize: 1
 
-
 #---Light source for craft exteriors
   - type: LIGHT_SOURCE_8
     floorSprite: 800
@@ -757,6 +757,46 @@ items:
     recover: false
     hiddenOnMinimap: true
 
+#---Bubble Effects
+  - type: GULPGULP
+    meleeAnimation: 0
+    power: 8
+    damageType: 6
+    blastRadius: 0
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 4
+      ToWound: 0
+      ToArmor: 0
+      RandomStun: false
+    accuracyMelee: 101
+    costMelee:
+      time: 1
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 2
+    recover: false
+          
+  - type: GULPGULPGULP
+    meleeAnimation: 0
+    power: 10
+    damageType: 6
+    blastRadius: 0
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 2
+      ToWound: 0
+      ToArmor: 0
+      RandomStun: false
+    accuracyMelee: 102
+    costMelee:
+      time: 8
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 2
+    recover: false
 
 #---XCOM UNITS & CORPSES
 
@@ -831,6 +871,67 @@ items:
     invWidth: 0
     invHeight: 0
     recover: false
+
+#---Tribal Weapons
+  - type: STR_TRIDENT
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.3
+    costSell: 0
+    weight: 3
+    bigSprite: 236
+    floorSprite: 236
+    handSprite: 1207
+    meleeSound: 86
+    accuracyMelee: 75
+    skillApplied: true
+    strengthApplied: false
+    twoHanded: true
+    power: 65
+    clipSize: -1
+    tuMelee: 16
+    flatRate: true
+    damageType: 7
+    meleeAnimation: 108
+    battleType: 3
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    listOrder: 4872
+    recover: true
+    recoveryPoints: 5
+
+#---Tribal Corpses & Units
+  - type: STR_NAGA_CORPSE
+    categories: [STR_ALIEN_CORPSE]
+    weight: 30
+    size: 0.5
+    bigSprite: 184
+    floorSprite: 184
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    armor: 40
+    recover: true
+    recoveryPoints: 3
+    costSell: 15
+    listOrder: 7210
+    
+  - type: STR_NAGA_WARRIOR
+    categories: [STR_LIVE_ALIEN]
+    size: 0.0
+    recover: true
+    recoveryPoints: 5
+    liveAlien: true
+    costSell: 30
+    listOrder: 7220
+  - type: STR_NAGA_TRIBE_LEADER
+    categories: [STR_LIVE_ALIEN]
+    size: 0.0
+    recover: true
+    recoveryPoints: 5
+    liveAlien: true
+    costSell: 45
+    listOrder: 7221
 
 ###CIVILIAN STUFF
   - type: CIVM_CORPSE

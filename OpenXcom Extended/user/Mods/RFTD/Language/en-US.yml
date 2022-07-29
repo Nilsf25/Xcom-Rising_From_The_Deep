@@ -315,10 +315,22 @@ en-US:
   STR_AQUATOID_MEDIC: "Extract Data: Frozen Aquatoid Medic"
 
 
+#------Naga Units
+  STR_NAGA_CORPSE: "Naga Corpse"
+  STR_NAGA_WARRIOR: "Naga Tribal Warrior"
+  STR_NAGA_TRIBE_LEADERR: "Naga Tribal Leader"
+
+#------Naga Items
+  STR_TRIDENT: "Naga Trident"
+
 #------Other REVITALIZE Research
   STR_EXTRACT_CRYO_DATA: "Memory: Extract Cryogenic Data"
 
 #------Other MODIFICATION Research
+
+
+#------Missions
+  STR_AQUATOID_MEDIC_CRYO_NAGA: "Aquatoid Medic retrieval (Naga)"
 
 #--------------------------------Rising From The deep FuncIds
   AQUATOIDBASE: "Aquatoid Colonies"
