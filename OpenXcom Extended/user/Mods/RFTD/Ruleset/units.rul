@@ -1,5 +1,62 @@
 units:
-#XCOM: Rising from the deep units
+#------Tribal Units
+    
+  - type: STR_NAGA_WARRIOR
+    race: STR_NAGA
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 40
+      bravery: 90
+      reactions: 45
+      firing: 40
+      throwing: 50
+      strength: 52
+      psiStrength: 30
+      psiSkill: 0
+      melee: 65
+    armor: NAGA_ARMOR
+    canSurrender: true
+    standHeight: 23
+    kneelHeight: 12
+    floatHeight: 2
+    value: 0
+    moveSound: 195
+    deathSound: 194
+    intelligence: 2
+    aggression: 6
+    isLeeroyJenkins: true
+    
+  - type: STR_NAGA_TRIBE_LEADER
+    race: STR_NAGA
+    rank: STR_LIVE_SQUAD_LEADER
+    stats:
+      tu: 65
+      stamina: 80
+      health: 40
+      bravery: 90
+      reactions: 45
+      firing: 45
+      throwing: 50
+      strength: 55
+      psiStrength: 30
+      psiSkill: 0
+      melee: 75
+    armor: NAGA_ARMOR
+    canSurrender: true
+    standHeight: 23
+    kneelHeight: 12
+    floatHeight: 2
+    value: 0
+    moveSound: 195
+    deathSound: 194
+    intelligence: 2
+    aggression: 4
+    
+
+
+#------XCOM units
   - type: STR_XCOM_ROOKIE
     race: STR_XCOM_TIER1_SET1
     rank: STR_LIVE_SOLDIER

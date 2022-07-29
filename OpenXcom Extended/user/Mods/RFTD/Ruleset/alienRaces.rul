@@ -1,5 +1,30 @@
 alienRaces: 
-    #Xcom enemies
+    #------Tribal enemies
+  - id: STR_NAGA
+    retaliationAggression: -100
+    members:
+      - STR_NAGA_WARRIOR
+      - STR_NAGA_TRIBE_LEADER
+      - STR_NAGA_WARRIOR
+      - STR_NAGA_WARRIOR
+      - STR_NAGA_WARRIOR
+      - STR_NAGA_WARRIOR
+      - STR_NAGA_WARRIOR
+      - STR_NAGA_WARRIOR
+  - id: STR_NAGA_UNDERWATER
+    retaliationAggression: -100
+    members:
+      - STR_NAGA_WARRIOR
+      - STR_NAGA_TRIBE_LEADER
+      - STR_NAGA_WARRIOR
+      - STR_NAGA_WARRIOR
+      - STR_NAGA_WARRIOR
+      - STR_NAGA_WARRIOR
+      - STR_NAGA_WARRIOR
+      - STR_NAGA_WARRIOR
+    
+    
+    #------Xcom enemies
     
   - id: STR_XCOM_TIER1_SET1
     members:

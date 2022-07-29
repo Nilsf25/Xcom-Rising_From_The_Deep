@@ -5,7 +5,61 @@ armors:
   - delete: STR_NONE_UC
   - delete: STR_DIVING_SUIT 
 
-#Xcom-Rising from the deep stuff
+#---Aliens
+
+  - type: AQUATOID_ARMOR0
+    allowInv: true
+    allowsKneeling: false
+    visibilityAtDark: 20
+    visibilityAtDay: 20
+    spriteInv: INVENTORY_AQUATOID
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.6
+      - 1.5
+      - 1.0
+      - 1.0 #laser
+    recovery:
+      health:
+        stunNormalized: -0.165
+
+  - type: NAGA_ARMOR
+    allowInv: true
+    spriteInv: INVENTORY_NAGA
+    spriteSheet: NAGA.PCK
+    corpseBattle: [STR_NAGA_CORPSE]
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 15
+    movementType: 3
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.4
+      - 1.5
+      - 1.0
+      - 1.0 #laser
+    recovery:
+      health:
+        stunNormalized: -0.165
+    loftempsSet: [3]
+    drawingRoutine: 1
+    
+
+
+#---Xcom-related
 
   - type: STR_XCOM_DIVING_SUIT 
     drawBubbles: true
