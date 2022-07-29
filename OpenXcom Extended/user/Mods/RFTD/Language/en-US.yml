@@ -288,6 +288,9 @@ en-US:
 #------Aquatoid Items
   STR_AQUATOID_FROZEN_MEDIC: "Frozen Aquatoid Medic"
 
+#------Aquatoid USOs
+  STR_AQUATOID_SURVEY_SHIP: "Aquatoid Survey Ship"
+
 #------Aquatoid Facilities
   STR_AIR_LOCK: "Aquatoid Core"
   STR_LIVING_QUARTERS: "Aquatoid Cryogenics"

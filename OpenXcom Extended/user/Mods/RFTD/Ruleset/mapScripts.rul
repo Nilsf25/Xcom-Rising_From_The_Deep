@@ -3,7 +3,7 @@ mapScripts:
     commands:
     - type: addCraft
       blocks: [14] #Coral block for landing
-      maxUses: 1            
+      maxUses: [1]            
       rects:
         - [2, 2, 1, 1]      
         - [2, 3, 1, 1]                      

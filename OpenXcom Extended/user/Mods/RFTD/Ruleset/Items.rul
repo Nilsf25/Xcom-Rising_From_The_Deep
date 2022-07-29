@@ -747,6 +747,17 @@ items:
     clipSize: 1
 
 
+#---Light source for craft exteriors
+  - type: LIGHT_SOURCE_8
+    floorSprite: 800
+    power: 10
+    invWidth: 0
+    invHeight: 0
+    battleType: 10
+    recover: false
+    hiddenOnMinimap: true
+
+
 #---XCOM UNITS & CORPSES
 
   - type: STR_XCOM_CORPSE

@@ -29,6 +29,7 @@ extraSprites:
 #------BASEBITS + BASE ICONS
   - type: BASEBITS.PCK
     files:
+      #---Facilities
       0: Resources/Basebits/BASEBIT_EMPTYTILE.png
       1: Resources/Basebits/BASEBIT_EMPTYSQUARE.png
       2: Resources/Basebits/BASEBIT_EMPTYOCTAGON.png
@@ -46,15 +47,25 @@ extraSprites:
       21: Resources/Basebits/BASEBIT_AQUATOID_LEARNINGARRAYS.png
       24: Resources/Basebits/BASEBIT_AQUATOID_STORAGE.png
 
+      #---Crafts
+      55: Resources/Basebits/AQUATOID_SURVEY_SHIP.png
 
+      #---Destroyed
       230: Resources/Basebits/BASEBIT_RUBBLE.png
       231: Resources/Basebits/BASEBIT_RUBBLE.png
       232: Resources/Basebits/BASEBIT_RUBBLE.png
       233: Resources/Basebits/BASEBIT_RUBBLE.png
 
-
+      #---Icons
       38: Resources/UI/Craft_Aquatoid_Icon.png    
       39: Resources/UI/Craft_Weapon_Icon.png
+
+#------Craft Icons
+  - type: INTICON.PCK
+    files:
+      22: Resources/Inticon/inticon_AQUATOID_SURVEY_SHIP.png
+      33: Resources/Inticon/DOGFIGHT_AQUATOID_SURVEY_SHIP.png
+
 
 #------WEAPONS_UNITS_ARMORS BIGOBS.PCK
   - type: BIGOBS.PCK
@@ -1345,6 +1356,9 @@ extraSprites:
     subY: 64
     files:
       16: Resources/Weapons/Hits/x_splash.png
+
+
+
 
 
 #------MENU BACKGROUNDS

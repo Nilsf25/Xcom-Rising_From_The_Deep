@@ -7,3 +7,47 @@ crafts:
   - delete: STR_LEVIATHAN
 
 ###USOs as craft for Rising from the deep
+  - type: STR_AQUATOID_SURVEY_SHIP
+    sprite: 22
+    fuelMax: 800
+    damageMax: 60
+    speedMax: 2000
+    accel: 12
+    soldiers: 8
+    maxLargeSoldiers: 0
+    maxLargeVehicles: 0
+    maxVehicles: 0
+    costRent: 5
+    costSell: 0
+    refuelRate: 50
+    transferTime: 48
+    score: 0
+    maxAltitude: 4
+    radarRange: 350
+    radarChance: 100
+    battlescapeTerrainData:
+      name: UFO01
+      mapDataSets:
+        - BLANKS
+        - UEXT2
+        - UEXT3
+        - UINT1
+        - UINT2
+        - UINT3
+      mapBlocks:
+        - name: UFO01
+          width: 10
+          length: 10
+          items:
+            LIGHT_SOURCE_8:
+              - [8, 6, 0]
+              - [8, 3, 0]
+    deployment:
+      - [5, 6, 0, 2]
+      - [6, 7, 0, 0]
+      - [4, 6, 0, 0]
+      - [3, 3, 0, 3]
+      - [6, 4, 0, 2]
+      - [6, 2, 0, 4]
+      - [2, 5, 0, 2]
+      - [7, 3, 0, 5]
