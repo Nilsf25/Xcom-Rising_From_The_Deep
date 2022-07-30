@@ -4,20 +4,42 @@ soldiers: #Basic Aquatoids to start for the player
     requiresBuyBaseFunc: [AQUATOIDBASE]    
     costBuy: 5
     costSalary: 1
-    statCaps:
-      tu: 0
-      stamina: 0
-      health: 0
-      bravery: 0
-      reactions: 0
-      firing: 0
-      throwing: 0
-      strength: 0
-      psiStrength: 0
+    minStats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 35
       psiSkill: 0
-      melee: 0
-    maxStats:
-      psiStrength: 0
+      melee: 76
+    maxStats:      
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 76    
+    statCaps:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 76
     armor: AQUATOID_ARMOR0
     standHeight: 16
     kneelHeight: 12
@@ -47,20 +69,42 @@ soldiers: #Basic Aquatoids to start for the player
     requiresBuyBaseFunc: [AQUATOIDBASE]      
     costBuy: 0
     costSalary: 1
-    statCaps:
-      tu: 0
-      stamina: 0
-      health: 0
-      bravery: 0
-      reactions: 0
-      firing: 0
-      throwing: 0
-      strength: 0
-      psiStrength: 0
+    minStats:
+      tu: 54
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 35
       psiSkill: 0
-      melee: 0
+      melee: 76
     maxStats:
-      psiStrength: 0
+      tu: 54
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 76
+    statCaps:
+      tu: 54
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 76
     armor: AQUATOID_ARMOR0
     standHeight: 16
     kneelHeight: 12

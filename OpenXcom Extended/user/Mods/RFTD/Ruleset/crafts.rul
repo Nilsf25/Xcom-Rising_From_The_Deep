@@ -31,10 +31,9 @@ crafts:
         - BLANKS
         - UEXT2
         - UEXT3
-        - UINT1
-        - UINT2
-        - UINT3
-        - TRITON
+        - UINT1_RFTD
+        - UINT2_RFTD
+        - UINT3_RFTD
       mapBlocks:
         - name: UFO01
           width: 10
