@@ -34,10 +34,12 @@ crafts:
         - UINT1
         - UINT2
         - UINT3
+        - TRITON
       mapBlocks:
         - name: UFO01
           width: 10
           length: 10
+          height: 4
           items:
             LIGHT_SOURCE_8:
               - [8, 6, 0]

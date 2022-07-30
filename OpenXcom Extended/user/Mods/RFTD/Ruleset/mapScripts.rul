@@ -7,7 +7,7 @@ mapScripts:
         - [2, 2, 1, 1]      
         - [2, 3, 1, 1]                      
         - [3, 2, 1, 1]              
-        - [3, 3, 1, 1]                                               
+        - [3, 3, 1, 1]                                                         
     - type: addBlock
       blocks: [4] #Static entry corner (1)
       maxUses: [1]    
@@ -64,5 +64,5 @@ mapScripts:
         - [2, 3, 1, 1]                      
         - [3, 2, 1, 1]              
         - [3, 3, 1, 1]              
-        
-                
+    - type: fillArea
+      terrain: SEABED                        
