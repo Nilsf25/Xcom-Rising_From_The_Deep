@@ -14,7 +14,7 @@ crafts:
     speedMax: 2000
     accel: 12
     soldiers: 8
-    maxLargeSoldiers: 0
+    maxLargeSoldiers: 1
     maxLargeVehicles: 0
     maxVehicles: 0
     costRent: 5
@@ -38,7 +38,6 @@ crafts:
         - name: UFO01
           width: 10
           length: 10
-          height: 4
           items:
             LIGHT_SOURCE_8:
               - [8, 6, 0]

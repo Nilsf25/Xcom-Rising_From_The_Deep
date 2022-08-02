@@ -11,6 +11,7 @@ alienRaces:
       - STR_NAGA_WARRIOR
       - STR_NAGA_WARRIOR
       - STR_NAGA_WARRIOR
+      
   - id: STR_NAGA_UNDERWATER
     retaliationAggression: -100
     members:

@@ -1,13 +1,11 @@
 alienDeployments: 
 
-  - delete: STR_ISLAND_TERROR
-
 #Tests for Xcom Rising from the deep
   - type: STR_AQUATOID_MEDIC_CRYO_NAGA
     data:
       - alienRank: 0
-        lowQty: 5
-        highQty: 8
+        lowQty: 8
+        highQty: 12
         dQty: 0
         percentageOutsideUfo: 0
         itemSets: 
@@ -19,44 +17,10 @@ alienDeployments:
             - STR_TRIDENT            
     width: 40
     length: 40
-    height: 4
+    height: 4  
     terrains:
-      - CORAL
-    shade: 15
-    depth: [3, 3]    
-    script: STR_CRYOMISSION_MEDIC            
-    startingCondition: STR_UNDERWATER
+      - Cryogenic Mission
+    script: CRYOMISSION_MEDIC        
+    depth: [3, 3]
     race: STR_NAGA
     duration: [672, 672]
-    
-  - type: STR_SURVEY_SHIP
-    data:
-      - alienRank: 5
-        lowQty: 1
-        highQty: 1
-        dQty: 0
-        percentageOutsideUfo: 50
-        itemSets:
-          -
-            - STR_SONIC_PISTOL
-            - STR_PISTOL_POWER_CLIP
-            - STR_PISTOL_POWER_CLIP
-          -
-            - STR_SONIC_PISTOL
-            - STR_PISTOL_POWER_CLIP
-            - STR_PISTOL_POWER_CLIP
-            - STR_SONIC_PULSER
-            - STR_SONIC_PULSER
-          -
-            - STR_SONIC_BLASTA_RIFLE
-            - STR_BLASTA_POWER_CLIP
-            - STR_BLASTA_POWER_CLIP
-            - STR_SONIC_PULSER
-            - STR_SONIC_PULSER
-    width: 50
-    length: 50
-    height: 4
-    briefing:
-      palette: 4
-      music: GMISPOSH
-

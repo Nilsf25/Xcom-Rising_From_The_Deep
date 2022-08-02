@@ -757,47 +757,6 @@ items:
     recover: false
     hiddenOnMinimap: true
 
-#---Bubble Effects
-  - type: GULPGULP
-    meleeAnimation: 0
-    power: 8
-    damageType: 6
-    blastRadius: 0
-    damageAlter:
-      RandomType: 3
-      ArmorEffectiveness: 4
-      ToWound: 0
-      ToArmor: 0
-      RandomStun: false
-    accuracyMelee: 101
-    costMelee:
-      time: 1
-    battleType: 3
-    clipSize: -1
-    invWidth: 2
-    invHeight: 2
-    recover: false
-          
-  - type: GULPGULPGULP
-    meleeAnimation: 0
-    power: 10
-    damageType: 6
-    blastRadius: 0
-    damageAlter:
-      RandomType: 3
-      ArmorEffectiveness: 2
-      ToWound: 0
-      ToArmor: 0
-      RandomStun: false
-    accuracyMelee: 102
-    costMelee:
-      time: 8
-    battleType: 3
-    clipSize: -1
-    invWidth: 2
-    invHeight: 2
-    recover: false
-
 #---XCOM UNITS & CORPSES
 
   - type: STR_XCOM_CORPSE

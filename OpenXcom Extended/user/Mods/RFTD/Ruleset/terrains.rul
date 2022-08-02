@@ -1,6 +1,5 @@
 terrains:
-  - name: CRYOMISSION_MEDIC
-    enviroEffects: STR_UNDERWATER_ENV  
+  - name: Cryogenic Mission
     depth: [3, 3]
     ambience: 67    
     mapDataSets:
@@ -14,75 +13,67 @@ terrains:
       - SAND
       - WEEDS
       - ROCKS      
-    script: STR_CRYOMISSION_MEDIC
+    script: CRYOMISSION_MEDIC
     mapBlocks:
       - name: CRYO01
         width: 10
         length: 10
+        groups: [3]
       - name: CRYO02
         width: 10
         length: 10
+        groups: [3]        
       - name: CRYO03
         width: 10
         length: 10   
+        groups: [2]            
       - name: CRYO04
         width: 10
         length: 10     
+        groups: [2]
       - name: CRYO05
         width: 10
         length: 10
       - name: CRYO06
         width: 10
-        length: 10     
+        length: 10  
+        groups: [4]   
       - name: CRYO07
         width: 10
-        length: 10           
+        length: 10 
+        groups: [4]          
       - name: CRYO08
         width: 10
-        length: 10   
+        length: 10 
+        groups: [4]  
       - name: CRYO09
         width: 10
-        length: 10   
+        length: 10 
+        groups: [8]  
+        items:
+          LIGHT_SOURCE_8:
+            - [4, 5, 1]
+            - [5, 5, 1]        
       - name: CRYO10
         width: 10
         length: 10
       - name: CRYO11
         width: 10
-        length: 10             
+        length: 10   
+        groups: [6]          
       - name: CRYO12
         width: 10
-        length: 10            
+        length: 10 
+        groups: [6]           
       - name: CRYO13
         width: 10
-        length: 10             
+        length: 10 
+        groups: [6]            
       - name: CRYO14
         width: 10
-        length: 10             
-      - name: CORAL00
-        width: 10
-        length: 10
-        groups: 1
-      - name: CORAL01
-        width: 10
-        length: 10
-      - name: CORAL02
-        width: 10
-        length: 10
-      - name: CORAL03
-        width: 10
-        length: 10
-      - name: CORAL04
-        width: 10
-        length: 10
-      - name: CORAL05
-        width: 10
-        length: 10
-      - name: CORAL06
-        width: 10
-        length: 10
-      - name: CORAL07
-        width: 10
-        length: 10
-      - name: CORAL08
-        width: 10
-        length: 10
+        length: 10 
+        groups: [7]          
+        items:
+          LIGHT_SOURCE_8:
+            - [5, 5, 0]               
+            - [5, 4, 0]       

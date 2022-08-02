@@ -1,14 +1,18 @@
 alienMissions:
 #-------Moving vanilla
-  - delete: STR_ALIEN_PROBE_MISSION
-  - delete: STR_ALIEN_INTERDICTION
-  - delete: STR_ALIEN_RESOURCE_RAID  
-  - delete: STR_ALIEN_INFILTRATION  
-  - delete: STR_ALIEN_BASE  
-  - delete: STR_ALIEN_SURFACE_ATTACK  
-  - delete: STR_ALIEN_SHIP_ATTACK  
-  - delete: STR_ALIEN_RETALIATION
-  - delete: STR_ALIEN_SUPPLY
-  - delete: STR_ALIEN_ARTIFACT
 
+#------RFTD ORIGINAL MISSIONS
+  - type: STR_AQUATOID_MEDIC_CRYO_NAGA
+    points: 0
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_NAGA: 100
+    waves:
+      - ufo: STR_AQUATOID_MEDIC_CRYO_NAGA # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
 #------TWOTS CHANGED MISSIONS
