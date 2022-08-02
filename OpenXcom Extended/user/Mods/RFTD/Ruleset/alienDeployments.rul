@@ -6,7 +6,7 @@ alienDeployments:
       - alienRank: 0
         lowQty: 8
         highQty: 12
-        dQty: 0
+        dQty: 2
         percentageOutsideUfo: 0
         itemSets: 
           -
@@ -22,5 +22,6 @@ alienDeployments:
       - Cryogenic Mission
     script: CRYOMISSION_MEDIC        
     depth: [3, 3]
+    shade: 10
     race: STR_NAGA
     duration: [672, 672]
