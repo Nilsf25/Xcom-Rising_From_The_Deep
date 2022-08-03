@@ -603,3 +603,44 @@ interfaces: #slightly increased size of buttons
         color2: 3
       - id: button
         color: 3
+
+  - type: endGameStatistics
+    backgroundImage: ALIENSCORE
+    elements:
+      - id: palette
+        color: 4
+      - id: window
+        color: 56
+      - id: text
+        color: 164
+        color2: 165
+      - id: list
+        color: 2
+        color2: 3
+        border: 1
+      - id: button
+        color: 3     
+
+  - type: debriefing
+    backgroundImage: ALIENSCORE
+    palette: PAL_BATTLESCAPE          
+    elements:
+      - id: palette
+        color: 15     # green
+      - id: window
+        color: 56     # white
+      - id: heading
+        color: 2     # white
+      - id: text
+        color: 2     # white
+      - id: list
+        color: 2     # white
+        color2: 3    # white
+      - id: totals
+        color: 2     # white
+      - id: button
+        color: 3     # white
+      - id: errorPalette
+        color: 2     # brown
+      - id: errorMessage
+        color: 2     # white

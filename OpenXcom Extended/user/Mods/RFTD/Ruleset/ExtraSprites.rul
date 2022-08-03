@@ -1444,6 +1444,13 @@ extraSprites:
     files:
       0: Resources/Backgrounds_Menus/BG_XCOM_INVENTORY.png
 
+  - type: ALIENSCORE
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Backgrounds_Menus/BG_ALIEN_SCORE_V3.png
+
 #------EVENTS BACKGROUNDS
   - type: BEGINNINGEVENT
     singleImage: true
