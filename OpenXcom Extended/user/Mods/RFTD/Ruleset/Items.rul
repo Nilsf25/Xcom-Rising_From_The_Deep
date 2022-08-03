@@ -832,6 +832,31 @@ items:
     recover: false
 
 #---Tribal Weapons
+  - type: STR_HOOK
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.3
+    costSell: 350
+    weight: 4
+    bigSprite: 284
+    floorSprite: 284
+    handSprite: 1231
+    meleeSound: 86
+    accuracyMelee: 80
+    skillApplied: true
+    strengthApplied: true
+    twoHanded: true
+    power: 55
+    clipSize: -1
+    tuMelee: 12
+    flatRate: true
+    damageType: 7
+    meleeAnimation: 108
+    battleType: 3
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    listOrder: 4861
+
   - type: STR_TRIDENT
     categories: [STR_DUALENV_WEAPONS]
     size: 0.3

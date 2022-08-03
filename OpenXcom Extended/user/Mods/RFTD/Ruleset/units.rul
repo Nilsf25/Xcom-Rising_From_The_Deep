@@ -1,6 +1,54 @@
 units:
 #------Tribal Units
-    
+  - type: STR_GILLMAN_WARRIOR
+    race: STR_GILLMAN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 40
+      stamina: 80
+      health: 45
+      bravery: 90
+      reactions: 45
+      firing: 45
+      throwing: 50
+      strength: 47
+      psiStrength: 30
+      psiSkill: 0
+      melee: 54
+    armor: GILLMAN_ARMOR0
+    standHeight: 20
+    kneelHeight: 12
+    value: 15
+    deathSound: 51
+    intelligence: 2
+    aggression: 2
+    isLeeroyJenkins: true
+        
+  - type: STR_GILLMAN_TRIBE_LEADER
+    race: STR_GILLMAN
+    rank: STR_LIVE_SQUAD_LEADER
+    stats:
+      tu: 45
+      stamina: 80
+      health: 50
+      bravery: 80
+      reactions: 45
+      firing: 49
+      throwing: 54
+      strength: 47
+      psiStrength: 30
+      psiSkill: 0
+      melee: 54
+    armor: GILLMAN_ARMOR0
+    standHeight: 20
+    kneelHeight: 12
+    value: 17
+    deathSound: 51
+    intelligence: 2
+    aggression: 2
+    isLeeroyJenkins: true    
+
+
   - type: STR_NAGA_WARRIOR
     race: STR_NAGA
     rank: STR_LIVE_SOLDIER

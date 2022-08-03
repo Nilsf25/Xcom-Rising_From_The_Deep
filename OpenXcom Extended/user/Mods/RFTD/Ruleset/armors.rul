@@ -57,7 +57,26 @@ armors:
     loftempsSet: [3]
     drawingRoutine: 1
     
-
+  - type: GILLMAN_ARMOR0
+    allowInv: true
+    allowsKneeling: false    
+    spriteInv: INVENTORY_GILLMAN
+    visibilityAtDark: 10
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+      - 1.2
+      - 0.0
+      - 1.0
+      - 1.0 #laser
+    recovery:
+      health:
+        stunNormalized: -0.165
 
 #---Xcom-related
 

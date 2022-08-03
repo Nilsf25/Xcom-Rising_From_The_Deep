@@ -15,4 +15,18 @@ alienMissions:
         trajectory: P10
         timer: 0
         objective: true
+
+  - type: STR_AQUATOID_MEDIC_CRYO_GILLMEN
+    points: 0
+    objective: 3
+    spawnZone: 0 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_GILLMANTRIBE: 100
+    waves:
+      - ufo: STR_AQUATOID_MEDIC_CRYO_GILLMEN # spawn this site directly
+        count: 1
+        trajectory: P10
+        timer: 0
+        objective: true
 #------TWOTS CHANGED MISSIONS

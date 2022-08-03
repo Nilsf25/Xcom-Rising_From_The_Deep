@@ -7,6 +7,12 @@ en-US:
   STR_XCOM_CORPSE: "Xcom Human Corpse"
 
 # Menu/UI things
+  STR_XCOM: "Aliens"
+  STR_ALIENS: "Lifeforms"
+  score: "Food"
+  STR_SCORE: "FOOD"  
+  STR_SCORE_VALUE: "FOOD> {ALT}{0}"
+  missionScore: "Mission food"  
   STR_1_BEGINNER: "1> Soldier"
   STR_2_EXPERIENCED: "2> Navigator"
   STR_3_VETERAN: "3> Technician"
@@ -14,12 +20,12 @@ en-US:
   STR_5_SUPERHUMAN: "5> Commander"
   STR_AGGRESSIVERETALIATION_DESC: "XCom crafts will attempt to detect your bases at all times, regardless of their mission parameters."
   STR_STORAGELIMITSENFORCED_DESC: "Enforces human containment and general store limits for live humans and artifacts recovered from missions."
-  STR_CANSELLLIVEALIENS: "Live human sale"
+  STR_CANSELLLIVEALIENS: "Lifeform sale"
   STR_CANSELLLIVEALIENS_DESC: "Allows the sale of live humans, recommended when using storage limits."
   STR_ALLOWPSIONICCAPTURE_DESC: "Mind-controlling all remaining humans results in victory, and they count as live captures."
-  STR_WEAPONSELFDESTRUCTION: "Human weapon self-destruction"
+  STR_WEAPONSELFDESTRUCTION: "Lifeform weapon self-destruction"
   STR_WEAPONSELFDESTRUCTION_DESC: "Weapons carried by humans will self-destruct if their owner is killed, like in XCOM 2012."
-  STR_RETAINCORPSES: "Retain interrogated humans"
+  STR_RETAINCORPSES: "Retain lifeform experiments"
   STR_RETAINCORPSES_DESC: "After \"researching\" living humans, the body will be added to the base stores, like in XCOM 2012."
   STR_PSISTRENGTHEVAL_DESC: "Evaluates the psionic strength of all soldiers after the appropriate research has been restored."
   STR_DOGFIGHT_SPEED_DESC: "Changes the speed of interception battles between USOs and XCOM crafts. Slower speeds can improve performance on low-end devices."
@@ -46,9 +52,9 @@ en-US:
   STR_MISSING_IN_ACTION_FEMALE: "MISSING"
   STR_TOTAL_INCOME: "Total food income"
   STR_TOTAL_EXPENDITURE: "Total food expenditure"
-  STR_ALIEN_KILLS: "Xcom units killed"
-  STR_ALIEN_CAPTURES: "Xcom units captured"
-  STR_ALIEN_MOST_KILLS: "Deadliest xcom unit"
+  STR_ALIEN_KILLS: "Lifeforms eleminated"
+  STR_ALIEN_CAPTURES: "Lifeforms captured"
+  STR_ALIEN_MOST_KILLS: "Deadliest lifeform"
   STR_LONGEST_SERVICE: "Longest months fighting"
   STR_TOTAL_DAYS_WOUNDED: "Recovery days"
   STR_TOTAL_CRAFT: "USOs owned"
@@ -141,14 +147,14 @@ en-US:
   STR_ALIEN_SYNOMIUM_DEVICE_DESTROYED: "NUCLEAR REACTOR DESTROYED"
   STR_ALIEN_BASE_CONTROL_DESTROYED: "XCOM CONTROL CENTER DESTROYED"
   STR_ALIEN_ARTIFACTS_RECOVERED: "ITEMS RECOVERED"
-  STR_LIVE_ALIENS_RECOVERED: "LIVE HUMANS RECOVERED"
-  STR_ALIEN_CORPSES_RECOVERED: "HUMAN CORPSES RECOVERED"
-  STR_ALIENS_KILLED: "XCOM OPERATIVES KILLED"
+  STR_LIVE_ALIENS_RECOVERED: "LIVING LIFEFORMS RECOVERED"
+  STR_ALIEN_CORPSES_RECOVERED: "DEAD LIFEFORMS RECOVERED"
+  STR_ALIENS_KILLED: "LIFEFORMS ELIMINATED"
   STR_ALIEN_BASE_DESTROYED: "XCOM Base destroyed"
   STR_ALIEN_BASE_STILL_INTACT: "XCOM Base still intact"
   STR_BASE_IS_SAVED: "Colony is saved"
   STR_BASE_IS_LOST: "Colony is lost"
-  STR_ALIENS_DEFEATED: "XCOM defeated"
+  STR_ALIENS_DEFEATED: "Lifeforms defeated"
   STR_CRAFT_IS_LOST: "USO is lost"
   STR_UFO_IS_RECOVERED: "XCOM Craft is recovered"
   STR_UFO_IS_NOT_RECOVERED: "ALIEN Craft is not recovered"
@@ -199,6 +205,9 @@ en-US:
   STR_SOLDIER_LIST: "Alien List"
   STR_SOLDIER: "Alien"
   STR_SCIENTIST: "Medic"
+  STR_UNITS_IN_CRAFT:
+    one: "{N} Unit in USO"
+    other: "{N} Units in USO"  
 
 
   ### Missions
@@ -268,14 +277,13 @@ en-US:
 
   STR_FUNDING: "Food Income"
 
-  STR_RATING_TERRIBLE: "YOU ROSE ANGER FROM T'LETH!"
+  STR_RATING_TERRIBLE: "YOU ANGERED T'LETH!"
   STR_RATING_POOR: "POOR!"
   STR_RATING_OK: "OK"
   STR_RATING_GOOD: "GOOD!"
   STR_RATING_EXCELLENT: "T'LETH WILL REMEMBER YOUR EXCELLENCE!"
   STR_XCOM_PROJECT_MONTHLY_REPORT: "X-COM MONTHLY REPORT"
 
-  STR_NAGA_TEMPLE_XCOM: "ANCIENT NAGA TEMPLE - XCOM"
   STR_ALIEN_ESCORT: "ESCORT"
   STR_GO_TO_BASE: "Go to Colony"
   STR_IS_LOW_ON_FUEL_RETURNING_TO_BASE: "is low on zbrite,{NEWLINE}returning to colony"
@@ -314,12 +322,18 @@ en-US:
   STR_AQUATOID_EXAMINATIONROOM_USOPEDIA: "Humans are more than food, once captured they form the basis of a range of creatures and control systems. Our technology is based on a common mind, a shared intellect, and the human brain is the ideal receptacle for these systems. Human brain tissue is used in most of our biological computer storage and retrieval systems. The remains are used for building, breeding and feeding our troops.                    [This Aquatoid facility is limited to Aquatoid research, this facility provides +5 medics room]"
   STR_AQUATOID_MEDIC: "Extract Data: Frozen Aquatoid Medic"
 
+#------Gillmen Units
+  STR_GILLMANTRIBE: "Gillman Tribe"
+  STR_GILLMAN_WARRIOR: "Gillman Tribal Warrior"
+  STR_GILLMAN_TRIBE_LEADER: "Gillman Tribal Leader"
 
+#------Gillmen Items
+  STR_HOOK: "Gillman Hook"
 #------Naga Units
   STR_NAGA: "Naga"
   STR_NAGA_CORPSE: "Naga Corpse"
   STR_NAGA_WARRIOR: "Naga Tribal Warrior"
-  STR_NAGA_TRIBE_LEADERR: "Naga Tribal Leader"
+  STR_NAGA_TRIBE_LEADER: "Naga Tribal Leader"
 
 #------Naga Items
   STR_TRIDENT: "Naga Trident"
@@ -331,8 +345,10 @@ en-US:
 
 
 #------Missions
-  STR_AQUATOID_MEDIC_CRYO_NAGA: "Aquatoid Medic retrieval (naga)"
+  STR_AQUATOID_MEDIC_CRYO_NAGA: "Aquatoid Medic retrieval (NAGA)"
   STR_AQUATOID_MEDIC_CRYO_NAGA_BRIEFING: "TEST"
+  STR_AQUATOID_MEDIC_CRYO_GILLMEN: "Aquatoid Medic retrieval (GILLMEN)"
+  STR_AQUATOID_MEDIC_CRYO_GILLMEN_BRIEFING: "TEST 02"  
 
 #--------------------------------Rising From The deep FuncIds
   AQUATOIDBASE: "Aquatoid Colonies"

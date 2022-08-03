@@ -1,5 +1,29 @@
 alienRaces: 
     #------Tribal enemies
+  - id: STR_GILLMANTRIBE
+    retaliationAggression: -100
+    members:
+      - STR_GILLMAN_WARRIOR
+      - STR_GILLMAN_TRIBE_LEADER
+      - STR_GILLMAN_WARRIOR
+      - STR_GILLMAN_WARRIOR
+      - STR_GILLMAN_WARRIOR
+      - STR_GILLMAN_WARRIOR
+      - STR_GILLMAN_WARRIOR
+      - STR_GILLMAN_WARRIOR
+
+  - id: STR_GILLMANTRIBE_UNDERWATER
+    retaliationAggression: -100
+    members:
+      - STR_GILLMAN_WARRIOR
+      - STR_GILLMAN_TRIBE_LEADER
+      - STR_GILLMAN_WARRIOR
+      - STR_GILLMAN_WARRIOR
+      - STR_GILLMAN_WARRIOR
+      - STR_GILLMAN_WARRIOR
+      - STR_GILLMAN_WARRIOR
+      - STR_GILLMAN_WARRIOR
+
   - id: STR_NAGA
     retaliationAggression: -100
     members:
