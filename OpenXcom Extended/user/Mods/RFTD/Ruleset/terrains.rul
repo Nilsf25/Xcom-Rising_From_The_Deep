@@ -1,5 +1,5 @@
 terrains:
-  - name: Cryogenic Mission
+  - name: Cryogenic Mission A
     depth: [3, 3]
     ambience: 67    
     mapDataSets:
@@ -13,7 +13,7 @@ terrains:
       - SAND
       - WEEDS
       - ROCKS      
-    script: CRYOMISSION_MEDIC
+    script: CRYOMISSION_A
     mapBlocks:
       - name: CRYO01
         width: 10

@@ -346,10 +346,10 @@ en-US:
 
 
 #------Missions
-  STR_AQUATOID_MEDIC_CRYO_NAGA: "Aquatoid Medic retrieval (NAGA)"
-  STR_AQUATOID_MEDIC_CRYO_NAGA_BRIEFING: "TEST"
-  STR_AQUATOID_MEDIC_CRYO_GILLMEN: "Aquatoid Medic retrieval (GILLMEN)"
-  STR_AQUATOID_MEDIC_CRYO_GILLMEN_BRIEFING: "TEST 02"  
+  STR_AQUATOID_A_CRYO_NAGA: "Aquatoid Medic retrieval (NAGA)"
+  STR_AQUATOID_A_CRYO_NAGA_BRIEFING: "TEST"
+  STR_AQUATOID_A_CRYO_GILLMEN: "Aquatoid Medic retrieval (GILLMEN)"
+  STR_AQUATOID_A_CRYO_GILLMEN_BRIEFING: "TEST 02"  
 
 #--------------------------------Rising From The deep FuncIds
   AQUATOIDBASE: "Aquatoid Colonies"

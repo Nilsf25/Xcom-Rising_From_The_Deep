@@ -1,5 +1,5 @@
 mapScripts:
-  - type: CRYOMISSION_MEDIC
+  - type: CRYOMISSION_A
     commands:
     - type: addCraft
       terrain: CORAL

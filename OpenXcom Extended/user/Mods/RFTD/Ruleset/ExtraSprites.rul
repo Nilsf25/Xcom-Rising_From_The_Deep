@@ -1451,13 +1451,20 @@ extraSprites:
     files: 
       0: Resources/Backgrounds_Menus/BG_ALIEN_SCORE_V3.png
 
-#------EVENTS BACKGROUNDS
+#------EVENTS/MISSIONS BACKGROUNDS
   - type: BEGINNINGEVENT
     singleImage: true
     width: 320
     height: 200
     files: 
       0: Resources/Events/BG_BEGINNING.png
+
+  - type: CRYOMISSIONS
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Events/BG_CRYOGENIC_MISSION.png      
 
 
 

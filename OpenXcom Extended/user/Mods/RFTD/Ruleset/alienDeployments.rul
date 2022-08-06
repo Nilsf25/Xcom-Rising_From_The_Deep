@@ -1,7 +1,7 @@
 alienDeployments: 
 
 #Tests for Xcom Rising from the deep
-  - type: STR_AQUATOID_MEDIC_CRYO_NAGA
+  - type: STR_AQUATOID_A_CRYO_NAGA
     data:
       - alienRank: 5
         lowQty: 5
@@ -31,14 +31,14 @@ alienDeployments:
     length: 40
     height: 4  
     terrains:
-      - Cryogenic Mission
-    script: CRYOMISSION_MEDIC        
+      - Cryogenic Mission A
+    script: CRYOMISSION_A        
     depth: [3, 3]
     shade: 10
     duration: [672, 672]
     music: [GMTACWET]    
 
-  - type: STR_AQUATOID_MEDIC_CRYO_GILLMEN
+  - type: STR_AQUATOID_A_CRYO_GILLMEN
     data:
       - alienRank: 5
         lowQty: 5
@@ -68,8 +68,8 @@ alienDeployments:
     length: 40
     height: 4  
     terrains:
-      - Cryogenic Mission
-    script: CRYOMISSION_MEDIC        
+      - Cryogenic Mission A
+    script: CRYOMISSION_A        
     depth: [3, 3]
     shade: 10
     duration: [672, 672]    
