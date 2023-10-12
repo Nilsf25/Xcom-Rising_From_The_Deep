@@ -1035,7 +1035,7 @@ items:
     recover: false
   - type: CIVF_CORPSE
     name: STR_CORPSE
-    battleType: 11
+    battleType: 11 
     weight: 50
     floorSprite: 51
     invWidth: 0

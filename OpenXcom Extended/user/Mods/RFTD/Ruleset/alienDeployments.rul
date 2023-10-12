@@ -52,6 +52,8 @@ alienDeployments:
             - STR_HOOK
           -
             - STR_HOOK          
+        extraRandomItems:
+          - [STR_TURN_SKIP]
       - alienRank: 1
         lowQty: 1
         highQty: 1

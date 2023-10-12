@@ -33,3 +33,6 @@
     listOrder: 59
   - type: STR_ALIEN_CORPSE
     listOrder: 60
+
+  - type: STR_LOGIC
+    hidden: true
