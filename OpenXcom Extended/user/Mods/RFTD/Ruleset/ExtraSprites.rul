@@ -285,6 +285,11 @@ extraSprites:
     height: 33
     files:
       434: Resources/Weapons/blank_4x2.png
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      435: Resources/Weapons/DummyItem.png
 
 #------WEAPONS_UNITS_ARMORS FLOOROB.PCK
   - type: FLOOROB.PCK

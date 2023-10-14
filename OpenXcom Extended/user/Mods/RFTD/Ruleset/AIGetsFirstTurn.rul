@@ -3,41 +3,48 @@ items:
   - type: STR_TURN_SKIP
     categories: [STR_LOGIC]
     tags:
-      SKIP_TAG: 1
+      ITEM_SKIP_TAG: 1
 
 # Script allowing Xcom: Rising from the deep to always skip first turn in battlescape and let the unit regain TU for the second turn.
 extended:
   tags:
     BattleGame:
-     SKIP_TAG: int
+      BATTLE_SKIP_TAG: int
+    RuleItem:
+      ITEM_SKIP_TAG: int
 
   scripts:
-  # #---Check if SKIP_TAG is present to skip first turn or not
+  #---If there is an item with skip first turn tag, then set the battlescape tag to skip first turn.
     createItem:
       - offset: 21
         code: |
-          var int isSkipTurn;
+          var int isSkipItem;
+          var int battleGameObject;
 
-          item.getTag isSkipTurn Tag.SKIP_TAG;
+          item.getTag isSkipItem Tag.ITEM_SKIP_TAG;
 
+          if eq isSkipItem 1;
+          battle_game.setTag Tag.BATTLE_SKIP_TAG 1;
+          end;
           return;
 
-  #---Skip First Turn
+
+
     newTurnUnit:
       - offset: 22
         code: |
           var int isPlayerUnit;
           var int maxUnitTu;
           var int isEnemyTurn;
-          var int isSkipTurnPointer;
-         
+          var int battleGameObject;
+
           unit.getFaction isPlayerUnit;
           unit.getTimeUnitsMax maxUnitTu;
           battle_game.getTurnSide isEnemyTurn;
-          battle_game.getTag isSkipTurnPointer Tag.isSkipTurn; 
+          battle_game.getTag battleGameObject Tag.BATTLE_SKIP_TAG;
 
-          if and eq turn 1 eq isSkipTurnPointer 1;
-            if eq turn 1;
+          if eq turn 1;
+            if eq battleGameObject 1;
               if eq isPlayerUnit 0;
               unit.setTimeUnits 0 ;
                 if eq isEnemyTurn 1;
@@ -45,5 +52,5 @@ extended:
                 end;
               end;
             end;
-          end; 
+          end;
           return;

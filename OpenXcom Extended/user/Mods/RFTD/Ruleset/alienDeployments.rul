@@ -2,6 +2,7 @@ alienDeployments:
 
 #Tests for Xcom Rising from the deep
   - type: STR_AQUATOID_A_CRYO_NAGA
+    cheatTurn: 1
     data:
       - alienRank: 5
         lowQty: 5
@@ -14,7 +15,9 @@ alienDeployments:
           -
             - STR_TRIDENT
           -
-            - STR_TRIDENT            
+            - STR_TRIDENT   
+        extraRandomItems:
+          - [STR_TURN_SKIP]                              
       - alienRank: 1
         lowQty: 1
         highQty: 1
@@ -26,7 +29,9 @@ alienDeployments:
           -
             - STR_TRIDENT
           -
-            - STR_TRIDENT                        
+            - STR_TRIDENT   
+        extraRandomItems:
+          - [STR_TURN_SKIP]                                          
     width: 40
     length: 40
     height: 4  
@@ -39,6 +44,7 @@ alienDeployments:
     music: [GMTACWET]    
 
   - type: STR_AQUATOID_A_CRYO_GILLMEN
+    cheatTurn: 1
     data:
       - alienRank: 5
         lowQty: 5
@@ -51,9 +57,9 @@ alienDeployments:
           -
             - STR_HOOK
           -
-            - STR_HOOK          
-        extraRandomItems:
-          - [STR_TURN_SKIP]
+            - STR_HOOK       
+###        extraRandomItems:
+###        - [STR_TURN_SKIP]                        
       - alienRank: 1
         lowQty: 1
         highQty: 1
@@ -65,7 +71,9 @@ alienDeployments:
           -
             - STR_HOOK
           -
-            - STR_HOOK                  
+            - STR_HOOK     
+###        extraRandomItems:
+###        - [STR_TURN_SKIP]             
     width: 40
     length: 40
     height: 4  
