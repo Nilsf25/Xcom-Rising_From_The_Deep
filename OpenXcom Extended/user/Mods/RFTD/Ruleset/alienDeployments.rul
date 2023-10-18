@@ -129,7 +129,7 @@ alienDeployments:
           -
             - STR_HOOK
           -
-            - STR_HOOK             
+            - STR_HOOK          
       - alienRank: 1
         lowQty: 1
         highQty: 1
@@ -141,7 +141,7 @@ alienDeployments:
           -
             - STR_HOOK
           -
-            - STR_HOOK     
+            - STR_HOOK          
     width: 60
     length: 60
     height: 4  
