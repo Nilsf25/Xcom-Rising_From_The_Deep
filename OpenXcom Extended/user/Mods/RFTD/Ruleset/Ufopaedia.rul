@@ -14,6 +14,12 @@ ufopaedia:
     text: STR_AIR_LOCK_UFOPEDIA
     image_id: AQUATOIDAIRLOCKUSOPEDIA
 
+  - id: STR_SUB_PEN
+    type_id: 16
+    section: STR_BASE_FACILITIES
+    text: STR_SUB_PEN_UFOPEDIA
+    image_id: AQUATOIDUSOPEN    
+
   - id: STR_LIVING_QUARTERS
     type_id: 16
     section: STR_BASE_FACILITIES
