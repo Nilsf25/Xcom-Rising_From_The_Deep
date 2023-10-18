@@ -15,9 +15,7 @@ alienDeployments:
           -
             - STR_TRIDENT
           -
-            - STR_TRIDENT   
-        extraRandomItems:
-          - [STR_TURN_SKIP]                              
+            - STR_TRIDENT         
       - alienRank: 1
         lowQty: 1
         highQty: 1
@@ -29,9 +27,7 @@ alienDeployments:
           -
             - STR_TRIDENT
           -
-            - STR_TRIDENT   
-        extraRandomItems:
-          - [STR_TURN_SKIP]                                          
+            - STR_TRIDENT                                 
     width: 40
     length: 40
     height: 4  
@@ -57,9 +53,83 @@ alienDeployments:
           -
             - STR_HOOK
           -
-            - STR_HOOK       
-###        extraRandomItems:
-###        - [STR_TURN_SKIP]                        
+            - STR_HOOK                   
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_HOOK
+          -
+            - STR_HOOK
+          -
+            - STR_HOOK      
+    width: 40
+    length: 40
+    height: 4  
+    terrains:
+      - Cryogenic Mission A
+    script: CRYOMISSION_A        
+    depth: [3, 3]
+    shade: 10
+    duration: [672, 672]    
+    music: [GMTACWET]
+
+  - type: STR_AQUATOID_B_CRYO_NAGA
+    cheatTurn: 1
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 12
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_TRIDENT
+          -
+            - STR_TRIDENT
+          -
+            - STR_TRIDENT                     
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_TRIDENT
+          -
+            - STR_TRIDENT
+          -
+            - STR_TRIDENT                                  
+    width: 60
+    length: 60
+    height: 4  
+    terrains:
+      - Cryogenic Mission B
+    script: CRYOMISSION_B        
+    depth: [3, 3]
+    shade: 10
+    duration: [672, 672]
+    music: [GMTACWET]    
+
+  - type: STR_AQUATOID_B_CRYO_GILLMEN
+    cheatTurn: 1
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 12
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_HOOK
+          -
+            - STR_HOOK
+          -
+            - STR_HOOK             
       - alienRank: 1
         lowQty: 1
         highQty: 1
@@ -72,15 +142,13 @@ alienDeployments:
             - STR_HOOK
           -
             - STR_HOOK     
-###        extraRandomItems:
-###        - [STR_TURN_SKIP]             
-    width: 40
-    length: 40
+    width: 60
+    length: 60
     height: 4  
     terrains:
-      - Cryogenic Mission A
-    script: CRYOMISSION_A        
+      - Cryogenic Mission B
+    script: CRYOMISSION_B        
     depth: [3, 3]
     shade: 10
     duration: [672, 672]    
-    music: [GMTACWET]
+    music: [GMTACWET]    

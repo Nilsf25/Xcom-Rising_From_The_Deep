@@ -77,3 +77,164 @@ terrains:
           LIGHT_SOURCE_8:
             - [5, 5, 0]               
             - [5, 4, 0]       
+
+  - name: Cryogenic Mission B
+    depth: [3, 3]
+    ambience: 67    
+    mapDataSets:
+      - BLANKS
+      - CORAL
+      - GRUNGE1
+      - GRUNGE2
+      - GRUNGE3                  
+      - GRUNGE4
+      - GRUNGE5
+      - SAND
+      - WEEDS
+      - ROCKS      
+    script: CRYOMISSION_B
+    mapBlocks:
+      - name: CRYO15
+        width: 10
+        length: 10
+        groups: [2]
+      - name: CRYO16
+        width: 10
+        length: 10
+        groups: [2]        
+      - name: CRYO17
+        width: 10
+        length: 10            
+      - name: CRYO18
+        width: 10
+        length: 10     
+      - name: CRYO19
+        width: 10
+        length: 10
+        groups: [3]           
+      - name: CRYO20
+        width: 10
+        length: 10  
+        groups: [3]   
+      - name: CRYO21
+        width: 10
+        length: 10   
+      - name: CRYO22
+        width: 10
+        length: 10 
+      - name: CRYO23
+        width: 10
+        length: 10  
+        groups: [2]                
+      - name: CRYO24
+        width: 10
+        length: 10
+        groups: [2]                
+      - name: CRYO25
+        width: 10
+        length: 10   
+      - name: CRYO26
+        width: 10
+        length: 10 
+      - name: CRYO27
+        width: 10
+        length: 10 
+        groups: [3]            
+      - name: CRYO28
+        width: 10
+        length: 10 
+        groups: [3]          
+      - name: CRYO29
+        width: 10
+        length: 10          
+      - name: CRYO30
+        width: 10
+        length: 10 
+      - name: CRYO31
+        width: 10
+        length: 10 
+        groups: [6]            
+      - name: CRYO32
+        width: 10
+        length: 10 
+        groups: [6]            
+      - name: CRYO33
+        width: 10
+        length: 10 
+        groups: [6]            
+      - name: CRYO34
+        width: 10
+        length: 10 
+      - name: CRYO35
+        width: 10
+        length: 10  
+      - name: CRYO36
+        width: 10
+        length: 10 
+        groups: [4]            
+      - name: CRYO37
+        width: 10
+        length: 10 
+        groups: [4]            
+      - name: CRYO38
+        width: 10
+        length: 10 
+        groups: [4]            
+      - name: CRYO39
+        width: 10
+        length: 10 
+      - name: CRYO40
+        width: 10
+        length: 10 
+      - name: CRYO41
+        width: 10
+        length: 10 
+        groups: [6]            
+      - name: CRYO42
+        width: 10
+        length: 10 
+        groups: [6]            
+      - name: CRYO43
+        width: 10
+        length: 10 
+        groups: [6]            
+      - name: CRYO44
+        width: 10
+        length: 10                                                                                                       
+      - name: CRYO45
+        width: 10
+        length: 10                                                  
+      - name: CRYO46
+        width: 10
+        length: 10 
+        groups: [4]                                                                
+      - name: CRYO47
+        width: 10
+        length: 10 
+        groups: [4]                                                                
+      - name: CRYO48
+        width: 10
+        length: 10 
+        groups: [4]                                                                
+      - name: CRYO49
+        width: 10
+        length: 10                                                
+      - name: CRYO50
+        width: 10
+        length: 10                                                    
+      - name: CRYO51
+        width: 10
+        length: 10 
+        groups: [7]                                   
+        items:
+          LIGHT_SOURCE_8:
+            - [3, 4, 0]
+            - [3, 5, 0]                                             
+      - name: CRYO52
+        width: 10
+        length: 10 
+        groups: [8]                                                     
+        items:
+          LIGHT_SOURCE_8:
+            - [6, 4, 0]
+            - [5, 4, 0]                                                                                                                                                                                             
