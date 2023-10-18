@@ -316,6 +316,7 @@ en-US:
 
 #--------------------------------Rising From The deep Research
 #------Aquatoid Research+Usopedia
+  STR_AIR_LOCK_UFOPEDIA: "This core allows Aquatoid troops to be transferred into or out of an undersea colony. The core area is vulnerable to intrusion from any potential hostile lifeform. Constructing this core allows this colony to develop and build Aquatoid technologies."
   STR_AQUATOID_CRYOGENICS: "Memory: Aquatoid Cryogenics"
   STR_AQUATOID_CRYOGENICS_USOPEDIA: "Our ancestors were sealed into units, their body temperature reduced to a point where bodily functions were all but stopped for the past 60 million years. We should now start to investigate old cryogenic facilities spread around the globe to revitalize our ancestor's technologies through their frozen minds.                    [This Aquatoid facility cannot retrieve data from other races, this facility provides +10 living space]"
   STR_AQUATOID_CLONINGFACILITY: "Memory: Aquatoid Cloning Facility"

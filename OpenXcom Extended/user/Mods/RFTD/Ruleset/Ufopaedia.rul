@@ -8,6 +8,12 @@ ufopaedia:
 #--------------------------------Rising From The deep Articles
 #------Aquatoid Articles
 #---Facilities
+  - id: STR_AIR_LOCK
+    type_id: 16
+    section: STR_BASE_FACILITIES
+    text: STR_AIR_LOCK_UFOPEDIA
+    image_id: AQUATOIDAIRLOCKUSOPEDIA
+
   - id: STR_LIVING_QUARTERS
     type_id: 16
     section: STR_BASE_FACILITIES
@@ -31,6 +37,8 @@ ufopaedia:
     image_id: UP080.BDY
     requires:
       - STR_NEVER
+
+
 
 #------Human Articles
 #---Crafts

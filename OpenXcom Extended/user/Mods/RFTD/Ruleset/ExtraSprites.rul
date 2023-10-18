@@ -1480,3 +1480,10 @@ extraSprites:
     height: 200
     files: 
       0: Resources/Usopedia/USOPEDIA_AQUATOID_CRYOGENICS.png
+
+  - type: AQUATOIDAIRLOCKUSOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Usopedia/USOPEDIA_AQUATOID_AIRLOCK.png      
