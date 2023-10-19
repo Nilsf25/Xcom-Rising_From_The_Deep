@@ -275,6 +275,7 @@ en-US:
   STR_LIVE_SQUAD_LEADER: "Commander"
   STR_LIVE_COMMANDER: "Captain"
 
+  STR_INTERNATIONAL_RELATIONS: "World Livestocks"
   STR_FUNDING: "Food Income"
 
   STR_RATING: "ASSESSMENT> {0}"

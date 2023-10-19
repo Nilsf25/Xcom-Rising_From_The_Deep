@@ -1463,6 +1463,13 @@ extraSprites:
     files: 
       0: Resources/Backgrounds_Menus/BG_GEOSCAPE_ACTIVITY.png   
 
+  - type: WORLDLIVESTOCKS
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Backgrounds_Menus/BG_WORLDLIVESTOCK.png         
+
 #------EVENTS/MISSIONS BACKGROUNDS
   - type: BEGINNINGEVENT
     singleImage: true

@@ -644,3 +644,21 @@ interfaces: #slightly increased size of buttons
         color: 2     # brown
       - id: errorMessage
         color: 2     # white
+
+  - type: fundingWindow
+    palette: PAL_GRAPHS  
+    backgroundImage: WORLDLIVESTOCKS
+    elements:
+      - id: palette
+        color: 5
+      - id: window
+        color: 50
+      - id: text1
+        color: 113
+      - id: text2
+        color: 113
+      - id: list
+        color: 113
+        color2: 113
+      - id: button
+        color: 112   
