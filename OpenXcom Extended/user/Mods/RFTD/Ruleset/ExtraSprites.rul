@@ -1395,6 +1395,13 @@ extraSprites:
     files: 
       0: Resources/Backgrounds_Menus/BG_USOBAY_MENUV2.png
 
+  - type: USOBAYBACKGROUND3
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Backgrounds_Menus/BG_USOBAY_MENUV3.png
+
   - type: EXAMINATIONROOM
     singleImage: true
     width: 320
@@ -1408,6 +1415,13 @@ extraSprites:
     height: 200
     files: 
       0: Resources/Backgrounds_Menus/BG_BUYSELL_MENU.png
+
+  - type: RECYCLE
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Backgrounds_Menus/BG_RECYCLE.png      
 
   - type: EQUIPBACKGROUND
     singleImage: true
@@ -1469,6 +1483,27 @@ extraSprites:
     height: 200
     files: 
       0: Resources/Backgrounds_Menus/BG_WORLDLIVESTOCK.png         
+
+  - type: FACILITYBUILDING
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Backgrounds_Menus/BG_FACILITYBUILDING.png         
+
+  - type: FACILITYPLACEMENT
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Backgrounds_Menus/BG_FACILITYPLACEMENT.png          
+
+  - type: MANUFACTUREBREEDING
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Backgrounds_Menus/BG_MANUFACTUREBREEDING.png            
 
 #------EVENTS/MISSIONS BACKGROUNDS
   - type: BEGINNINGEVENT

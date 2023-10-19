@@ -379,11 +379,11 @@ interfaces: #slightly increased size of buttons
         border: 159
 
   - type: craftSelect
-    backgroundImage: USOBAYBACKGROUND
+    backgroundImage: USOBAYBACKGROUND3
     palette: PAL_BASESCAPE
     elements:
       - id: palette
-        color: 1
+        color: 10
       - id: window
         color: 56
       - id: text
@@ -512,6 +512,135 @@ interfaces: #slightly increased size of buttons
       - id: button
         color: 3   # purple
 
+  - type: selectFacility
+    backgroundImage: FACILITYBUILDING
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 10
+      - id: window
+        color: 56
+      - id: button
+        color: 3
+      - id: text
+        color: 164
+      - id: list
+        color: 163
+        color2: 163
+
+  - type: placeFacility
+    backgroundImage: FACILITYPLACEMENT
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 10
+      - id: window
+        color: 56
+      - id: button
+        color: 3
+      - id: text
+        color: 164
+      - id: numbers
+        color: 163
+      - id: errorPalette
+        color: 164
+      - id: errorMessage
+        color: 164
+
+  - type: manufactureMenu
+    backgroundImage: MANUFACTUREBREEDING
+    palette: PAL_BASESCAPE    
+    elements:
+      - id: palette
+        color: 10     # oxide
+      - id: window
+        color: 56   # purple
+      - id: text1
+        color: 163   # purple
+        color2: 163  # white
+      - id: text2
+        color: 164   # pink
+      - id: list
+        color: 163   # blue
+        border: 162  # purple
+      - id: button
+        color: 3   # blue
+
+  - type: globalManufactureMenu
+    backgroundImage: MANUFACTUREBREEDING
+    palette: PAL_BASESCAPE   
+    elements:
+      - id: palette
+        color: 10
+      - id: window
+        color: 56
+      - id: text1
+        color: 163
+        color2: 163
+      - id: text2
+        color: 164
+      - id: list
+        color: 163
+        color2: 163
+        border: 162
+      - id: button
+        color: 3
+
+  - type: selectNewManufacture
+    backgroundImage: MANUFACTUREBREEDING
+    palette: PAL_BASESCAPE   
+    parent: manufactureMenu
+    elements:
+      - id: window
+        color: 56   # pink
+      - id: text
+        color: 163   # pink
+      - id: list
+        color: 163
+        color2: 163
+        border: 162  # pink
+      - id: listExtended
+        color: 163
+        color2: 163
+      - id: button
+        color: 3   # blue
+      - id: catBox
+        color: 3   # pink
+
+  - type: allocateManufacture
+    backgroundImage: MANUFACTUREBREEDING
+    palette: PAL_BASESCAPE   
+    parent: manufactureMenu
+    elements:
+      - id: window
+        color: 56   # blue
+      - id: text
+        color: 163   # blue
+        color2: 163  # white
+      - id: list
+        color: 163   # blue
+        color2: 163  # white
+      - id: button
+        color: 3   # blue
+
+  - type: manufactureInfo
+    backgroundImage: MANUFACTUREBREEDING
+    palette: PAL_BASESCAPE   
+    parent: manufactureMenu
+    elements:
+      - id: window
+        color: 56   # pink
+      - id: text
+        color: 163   # pink
+        color2: 163  # white
+      - id: list
+        color: 163   # blue
+        color2: 163  # white
+      - id: button1
+        color: 3   # pink
+      - id: button2
+        color: 3   # purple
+
   - type: allocateResearch
     backgroundImage: EXAMINATIONROOM
     parent: researchMenu
@@ -568,6 +697,26 @@ interfaces: #slightly increased size of buttons
         color: 6     # brown
       - id: errorMessage
         color: 112   # pink
+
+  - type: sellMenu
+    backgroundImage: RECYCLE
+    palette: PAL_BASESCAPE
+    elements:
+      - id: palette
+        color: 10
+      - id: window
+        color: 56
+      - id: text
+        color: 164
+        color2: 112
+      - id: list
+        color: 165
+        color2: 162
+        border: 115
+      - id: ammoColor
+        color: 165
+      - id: button
+        color: 3
 
   - type: ufopaedia
     palette: PAL_BASESCAPE            
