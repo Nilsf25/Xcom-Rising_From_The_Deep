@@ -1456,6 +1456,13 @@ extraSprites:
     files: 
       0: Resources/Backgrounds_Menus/BG_ALIEN_SCORE_V3.png
 
+  - type: GRAPH.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Backgrounds_Menus/BG_GEOSCAPE_ACTIVITY.png   
+
 #------EVENTS/MISSIONS BACKGROUNDS
   - type: BEGINNINGEVENT
     singleImage: true
