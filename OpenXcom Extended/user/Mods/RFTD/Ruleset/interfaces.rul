@@ -63,7 +63,7 @@ interfaces: #slightly increased size of buttons
         size: [30, 15]
         TFTDMode: true
 
-###Color changes for Xcom: Rising from the deep
+###Color and Background changes for Xcom: Rising from the deep
 
   - type: mainMenu
     backgroundImage: RISINGFROMTHEDEEP
@@ -718,6 +718,47 @@ interfaces: #slightly increased size of buttons
       - id: button
         color: 3
 
+  - type: transferBaseSelect
+    backgroundImage: TRANSFER
+    palette: PAL_BASESCAPE   
+    elements:
+      - id: palette
+        color: 10     # blue
+      - id: window
+        color: 56   # gold
+      - id: button
+        color: 3   # gold
+      - id: text
+        color: 164   # gold
+        color2: 162  # white
+      - id: list
+        color: 165   # pink
+        color2: 162  # gold
+        border: 115
+
+  - type: transferMenu
+    backgroundImage: TRANSFER
+    palette: PAL_BASESCAPE    
+    elements:
+      - id: palette
+        color: 10     # brown
+      - id: window
+        color: 56   # blue
+      - id: text
+        color: 164   # blue
+      - id: list
+        color: 165   # blue
+        color2: 162  # white
+        border: 115
+      - id: ammoColor
+        color: 165   # purple
+      - id: button
+        color: 3   # purple
+      - id: errorPalette
+        color: 10     # brown
+      - id: errorMessage
+        color: 3   # pink
+
   - type: ufopaedia
     palette: PAL_BASESCAPE            
     backgroundImage: EXAMINATIONROOM
@@ -811,3 +852,6 @@ interfaces: #slightly increased size of buttons
         color2: 113
       - id: button
         color: 112   
+
+  - type: graphs
+    palette: PAL_BASESCAPE        

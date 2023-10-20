@@ -1505,6 +1505,13 @@ extraSprites:
     files: 
       0: Resources/Backgrounds_Menus/BG_MANUFACTUREBREEDING.png            
 
+  - type: TRANSFER
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Backgrounds_Menus/BG_TRANSFER.png 
+
 #------EVENTS/MISSIONS BACKGROUNDS
   - type: BEGINNINGEVENT
     singleImage: true
